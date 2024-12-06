@@ -1,1 +1,1 @@
-This project is a collection of all relevant information for NSCS and DBI/DSAI 
+This project is a collection of all relevant information for NSCS and DBI/DSAI it is best viewed and edited with [Obsidian](https://obsidian.md/)
