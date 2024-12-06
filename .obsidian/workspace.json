@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a28877ea69d1640c",
+        "id": "89fde37abb3f0d79",
         "type": "tabs",
         "children": [
           {
-            "id": "dde898b0951e9012",
+            "id": "9806acc2d07995fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NSCS/Domain Name System.md",
+                "file": "NSCS/DNS/Domain Name System.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,18 +22,35 @@
             }
           },
           {
-            "id": "f9e60b64a09b95c1",
+            "id": "09479c34b0d4482d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-12-06 13.10.45.excalidraw.md"
+                "file": "NSCS/PKI/Public Key Infrastructure.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-06 13.10.45.excalidraw"
+              "icon": "lucide-file",
+              "title": "Public Key Infrastructure"
+            }
+          },
+          {
+            "id": "d6dd7e3a4be0e7ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NSCS/PKI/Certificate Authorities.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Certificate Authorities"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +82,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -100,13 +117,23 @@
         "type": "tabs",
         "children": [
           {
+            "id": "597576e3ab1c3d13",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
             "id": "035eeab6d29d5f87",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NSCS/Domain Name System.md",
-                "collapseAll": false,
+                "file": "NSCS/PKI/Public Key Infrastructure.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -115,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Domain Name System"
+              "title": "Backlinks for Public Key Infrastructure"
             }
           },
           {
@@ -124,12 +151,24 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NSCS/Domain Name System.md",
+                "file": "NSCS/PKI/Public Key Infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Domain Name System"
+              "title": "Outgoing links from Public Key Infrastructure"
+            }
+          },
+          {
+            "id": "5850ac84dd29795d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NSCS/PKI/Public Key Infrastructure.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Public Key Infrastructure"
             }
           },
           {
@@ -144,36 +183,13 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "5850ac84dd29795d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "NSCS/Domain Name System.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Domain Name System"
-            }
-          },
-          {
-            "id": "597576e3ab1c3d13",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 535.5,
-    "collapsed": true
+    "width": 312.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,19 +200,30 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dde898b0951e9012",
+  "active": "09479c34b0d4482d",
   "lastOpenFiles": [
-    "README.md~",
-    "NSCS/Test - 1.md",
+    "NSCS/PKI/Certificate Authorities.md",
+    "NSCS/PKI/Public Key Infrastructure.md",
+    "NSCS/PKI/Digitale-Signatur.png",
+    "NSCS/PKI",
+    "NSCS/DNS/Domain Name System.md",
+    "NSCS/DNS/DNS Sec.md",
+    "NSCS/DNS/DNS-Strukture.png",
     "filename.excalidraw.md",
-    "Pasted Image 20241206131148_193.png",
-    "NSCS/Domain Name System.md",
-    "Excalidraw/Drawing 2024-12-06 13.22.36.excalidraw.md",
+    "NSCS/IP-Adress.md",
+    "Untitled.canvas",
+    "NSCS/protocols/TCP.md",
+    "NSCS/protocols/UDP.md",
+    "NSCS/protocols",
+    "NSCS/IANA.md",
+    "NSCS/DNS",
     "Excalidraw/Drawing 2024-12-06 13.10.45.excalidraw.md",
+    "NSCS/Test - 1.md",
+    "README.md~",
+    "Excalidraw/Drawing 2024-12-06 13.22.36.excalidraw.md",
     "Excalidraw",
     "Domain.md",
     "README.md",
