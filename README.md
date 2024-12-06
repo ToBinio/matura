@@ -1,1 +1,1 @@
-asd
+This project is a collection of all relevant information for NSCS and DBI/DSAI 
