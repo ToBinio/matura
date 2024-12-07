@@ -40,7 +40,7 @@ Organisatorische Top Level Domains
 - .gov Staatliche Institution
 - .mil Militärische Einrichtungen
 
-Es können bei der [[IANA]] auch Top Level Domains beantragt werden. Dies kann von Regionen, z.B.
+Es können bei der [[Standart Organasitations|IANA]] auch Top Level Domains beantragt werden. Dies kann von Regionen, z.B.
 Tirol (.tirol), aber auch von Firmen z.B. Ferero (.kinder) gemacht werden
 
 ---

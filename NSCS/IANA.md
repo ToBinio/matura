@@ -1,2 +1,0 @@
-
-Internet Assigned Numbers Authority

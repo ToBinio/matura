@@ -1,0 +1,1 @@
+![[Osi Model.png]]

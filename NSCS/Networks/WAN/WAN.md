@@ -77,3 +77,55 @@ A **dual-carrier connection** provides redundancy and increases network availabi
 see if anybody carse about that (Presentation page 13-17)
 ``` 
 
+---
+## Operations
+### WAN Standards
+Modern WAN standards are defined and managed by a number of recognized authorities including the following
+[[Standart Organasitations|**TIA/EIA** , **ISO**, **IEEE**]]
+
+### OSI Modell
+Most WAN standards focus on the physical layer and the data link layer.
+
+[[OSI Model|**Layer 1 Protocols**]]
+- Synchronous Digital Hierarchy (SDH)
+- Synchronous Optical Networking (SONET)
+- Dense Wavelength Division Multiplexing (DWDM)
+
+[[OSI Model|**Layer 2 Protocols**]]
+- Broadband (i.e., DSL and Cable)
+- Wireless
+- Ethernet WAN (Metro Ethernet)
+- Multiprotocol Label Switching (MPLS)
+- Point-to-Point Protocol (PPP) (less used)
+- High-Level Data Link Control (HDLC) (less used)
+- Frame Relay (legacy)
+- Asynchronous Transfer Mode (ATM) (legacy)
+
+### Terminology
+
+| WAN Term                                | Description                                                                                                                                         |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Data Terminal Equipment (DTE)**       | Connects the subscriber LANs to the WAN communication device                                                                                        |
+| **Data Communications Equipment (DCE)** | Device used to communicate with the provider                                                                                                        |
+| **Customer Premises Equipment (CPE)**   | This is the DTE and DCE devices located on the enterprise edge                                                                                      |
+| **Point-of-Presence (POP)**             | The point where the subscriber connects to the service provider network                                                                             |
+| **Demarcation Point**                   | The physical location in a building or complex that officially separates the CPE from service provider equipment.                                   |
+| **Local Loop (last mile)**              | The copper or fiber cable that connects the CPE to the CO of the service provider                                                                   |
+| **Central office (CO)**                 | The local service provider facility or building that connects the CPE to the provider network                                                       |
+| **Toll network**                        | Includes backhaul, long-haul, all-digital, fiber-optic communications lines, switches, routers, and other equipment inside the WAN provider network |
+| **Backhaul network**                    | Connects multiple access nodes of the service provider network                                                                                      |
+| **Backbone network**                    | Large, high-capacity networks used to interconnect service provider networks and to create a redundant network.                                     |
+![[terminology.png]]
+
+### WAN Devices
+
+| **WAN Device**                     | **Description**                                                                                                   |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Voiceband Modem**                | Dial-up modem – uses telephone lines<br>    <br>Legacy device                                                     |
+| **DSL Modem / Cable Modem**        | Collectively known as broadband modems, these high-speed digital modems connect to the DTE router using Ethernet. |
+| **CSU/DSU**                        | Digital-leased lines require a CSU and a DSU. It connects a digital device to a digital line.                     |
+| **Optical Converter**              | Connect fiber-optic media to copper media and convert optical signals to electronic pulses.                       |
+| **Wireless Router / Access Point** | Devices are used to wirelessly connect to a WAN provider.                                                         |
+| **WAN Core devices**               | WAN backbone consists of multiple high-speed routers and Layer 3 switches.                                        |
+
+![[Devices.png]]
