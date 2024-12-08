@@ -81,20 +81,20 @@ see if anybody carse about that (Presentation page 13-17)
 ## Operations
 ### WAN Standards
 Modern WAN standards are defined and managed by a number of recognized authorities including the following
-[[Standart Organasitations|**TIA/EIA** , **ISO**, **IEEE**]]
+[[Standart Organasitations|TIA/EIA, ISO, IEEE]]
 
 ### OSI Modell
 Most WAN standards focus on the physical layer and the data link layer.
 
-[[OSI Model|**Layer 1 Protocols**]]
+[[OSI Model|Layer 1 Protocols]]
 - Synchronous Digital Hierarchy (SDH)
 - Synchronous Optical Networking (SONET)
 - Dense Wavelength Division Multiplexing (DWDM)
 
-[[OSI Model|**Layer 2 Protocols**]]
+[[OSI Model|Layer 2 Protocols]]
 - Broadband (i.e., DSL and Cable)
 - Wireless
-- Ethernet WAN (Metro Ethernet)
+- [[Modern WAN#Ethernet WAN]] (Metro Ethernet)
 - Multiprotocol Label Switching (MPLS)
 - Point-to-Point Protocol (PPP) (less used)
 - High-Level Data Link Control (HDLC) (less used)
@@ -129,3 +129,130 @@ Most WAN standards focus on the physical layer and the data link layer.
 | **WAN Core devices**               | WAN backbone consists of multiple high-speed routers and Layer 3 switches.                                        |
 
 ![[Devices.png]]
+
+---
+
+## Wan Switching
+### Circuit switching
+A circuit-switched network establishes a dedicated circuit (or channel) between endpoints before the users can communicate.    
+
+- Establishes a dedicated virtual connection through the service provider network before communication can start.
+- All communication uses the same path.
+- The two most common types of circuit-switched WAN technologies are the public switched telephone network (PSTN) and the legacy Integrated Services Digital Network (ISDN).
+
+![[Circuit Switching.png]]
+
+### Packet Switching
+Network communication is most commonly implemented using packet-switched communication.
+- Segments traffic data into packets that are routed over a shared network.
+- Much less expensive and more flexible than circuit switching.
+
+Common types of packet-switched WAN technologies are:
+- Ethernet WAN (Metro Ethernet),
+	- [[Modern WAN#**Multiprotocol Label Switching (MPLS)**]]
+	- Frame Relay
+	- Asynchronous Transfer Mode (ATM).
+![[Packet switching.png]]
+
+---
+WANs went though a lot of changes see [[Legacy WAN]] compared to [[Modern WAN]] 
+
+---
+
+## Internet-based
+Internet-based broadband connectivity is an alternative to using dedicated WAN options.
+Internet-based connectivity can be divided into wired and wireless options.
+
+**Wired Options**
+- Wired options use permanent cabling (e.g., copper or fiber) to provide consistent bandwidth, and reduce error rates and latency. Examples: DSL, cable connections, and optical fiber networks.
+**Wireless Options**
+- Wireless options are less expensive to implement compared to other WAN connectivity options because they use radio waves instead of wired media to transmit data. Examples: cellular 3G/4G/5G or satellite internet services.
+- Wireless signals can be negatively affected by factors such as distance from radio towers, interference from other sources and weather.
+![[internet based wan.png]]
+
+### DSL
+Digital Subscriber Line (DSL) is a high-speed, always-on, connection technology that uses existing twisted-pair telephone lines to provide IP services to users.    
+
+DSL are categorized as either Asymmetric DSL (ADSL) or Symmetric DSL (SDSL).    
+- ADSL and ADSL2+ provide higher downstream bandwidth to the user than upload bandwidth.
+- SDSL provides the same capacity in both directions.
+
+DSL transfer rates are dependent on the actual length of the local loop, and the type and condition of the cabling.
+
+![[DSL.png]]
+
+Service providers deploy DSL connections in the local loop. The connection is set up between the DSL modem and the DSL access multiplexer (DSLAM).    
+- The DSL modem converts the Ethernet signals from the teleworker device to a DSL signal, which is transmitted to a DSL access multiplexer (DSLAM) at the provider location.
+- A DSLAM is located at the Central Office (CO) of the provider and concentrates connections from multiple DSL subscribers.
+- DSL is not a shared medium. Each user has a separate direct connection to the DSLAM. Adding users does not impede performance.
+![[DSL connections.png]]
+
+#### PPP
+ISPs use [[PPP]] as the [[OSI Model|Layer 2 protocol]] for broadband DSL connections.    
+- PPP can be used to authenticate the subscriber.
+- PPP can assign a public [[IP-v4|IPv4]] address to the subscriber.
+- PPP provides link-quality management features.
+
+ There are two ways PPP over Ethernet (PPPoE) can be deployed:    
+- **Host with** **PPoE** **Client** - The PPPoE client software communicates with the DSL modem using PPPoE and the modem communicates with the ISP using PPP.
+- **Router** **PPPoE** **Client -** The router is the PPPoE client and obtains its configuration from the provider.
+![[DSL and ppp.png]]
+
+### Cable
+Cable technology is a high-speed always-on connection technology that uses a coaxial cable from the cable company to provide IP services to users.    
+The Data over Cable Service Interface Specification (DOCSIS) is the international standard for adding high-bandwidth data to an existing cable system.
+
+- The optical node converts RF signals to light pulses over [[Fiber Optic]] cable.   
+- The fiber media enables the signals to travel over long distances to the provider headend where a Cable Modem Termination System (CMTS) is located.
+- The headend contains the databases needed to provide internet access while the CMTS is responsible for communicating with the cable modems.
+![[Cable WAN.png]]
+
+### Fiber
+Many municipalities, cities, and providers install [[Fiber Optic]] cable to the user location. This is commonly referred to as Fiber to the x (FTTx) and includes the following:
+- **Fiber to the Home (FTTH)** - Fiber reaches the boundary of the residence.
+- **Fiber to the Building (FTTB)** - Fiber reaches the boundary of the building with the final connection to the individual living space being made via alternative means.
+- **Fiber to the Node/Neighborhood (FTTN)** – Optical cabling reaches an optical node that converts optical signals to a format acceptable for twisted pair or coaxial cable to the premise.
+
+### Wireless
+Wireless technology uses the unlicensed radio spectrum to send and receive data.
+
+- **Municipal Wi-Fi** -  Municipal wireless networks are available in many cities providing high-speed internet access for free, or for substantially less than the price of other broadband services.
+- **Cellular** – Increasingly used to connect devices to the internet using radio waves to communicate through a nearby mobile phone tower. 3G/4G/5G and Long-Term Evolution (LTE) are cellular technologies.
+- **Satellite Internet** - Typically used by rural users or in remote locations where cable and DSL are not available. A router connects to a satellite dish which is pointed to a service provider satellite in Geosynchronous orbit. Trees and heavy rains can impact the satellite signal.
+- **WiMAX** - Worldwide Interoperability for Microwave Access (WiMAX) is described in the [[Standart Organasitations|IEEE]] standard 802.16 Provides high-speed broadband service with wireless access and provides broad coverage like a cell phone network rather than through small Wi-Fi hotspots.
+
+### VPN
+[[VPN|VPNs]] can be used to address security concerns incurred when a remote office worker uses broadband services to access the corporate WAN over the internet.
+A VPN is an encrypted connection between private networks over a public network. VPN tunnels are routed through the internet from the private network of the company to the remote site or employee host.
+
+There are several benefits to using VPN:
+- **Cost savings** - Eliminates expensive, dedicated WAN links and modem banks.
+- **Security** - Advanced encryption and authentication protocols protect data from unauthorized access.
+- **Scalability** - Corporations can add large amounts of capacity without adding significant infrastructure.
+- **Compatibility with broadband technology** - Supported by broadband service providers such as DSL and cable.
+
+VPNs are commonly implemented as the following:
+- **Site-to-site VPN** - VPN settings are configured on routers. Clients are unaware that their data is being encrypted.
+- **Remote Access** - The user is aware and initiates remote access connection. For example, using HTTPS in a browser to connect to your bank. Alternatively, the user can run VPN client software on their host to connect to and authenticate with the destination device.
+
+## Connectivity Options
+There are different ways an organization can connect to an ISP. The choice depends on the needs and budget of the organization.
+
+- **Single-homed** –Single connection to the ISP using one link. Provides no redundancy and is the least expensive solution.
+- **Dual-homed** - Connects to the same ISP using two links. Provides both redundancy and load balancing. However, the organization loses internet connectivity if the ISP experiences an outage.
+- **Multihomed** -The client connects to two different ISPs. This design provides increased redundancy and enables load-balancing, but it can be expensive.
+- **Dual-multihomed** - Dual-multihomed is the most resilient topology of the four shown. The client connects with redundant links to multiple ISPs. This topology provides the most redundancy possible. It is the most expensive option of the four.
+
+![[WAN Connectivity.png]]
+
+---
+
+## Broadband Solution Comparison
+Each broadband solution has advantages and disadvantages. If there are multiple broadband solutions available, a cost-versus-benefit analysis should be performed to determine the best solution.    
+Some factors to consider include the following:    
+- [[#Cable]] - Bandwidth is shared by many users. Therefore, upstream data rates are often slow during high-usage hours in areas with over-subscription.
+- [[#DSL]] - Limited bandwidth that is distance sensitive (in relation to the ISP central office). Upload rate is proportionally lower compared to download rate.
+- [[#Fiber|Fiber-to-the-Home]] - This option requires fiber installation directly to the home.
+- [[#Wireless|Cellular/Mobile]] - With this option, coverage is often an issue, even within a small office or home office where bandwidth is relatively limited.
+- [[#Wireless|Municipal Wi-Fi]] - Most municipalities do not have a mesh Wi-Fi network deployed. If is available and in range, then it is a viable option.
+- [[#Wireless|Satellite]] - This option is expensive and provides limited capacity per subscriber. Typically used when no other option is available.

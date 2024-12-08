@@ -22,19 +22,7 @@
             }
           },
           {
-            "id": "4ecdd7ca6f7ab103",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "NSCS/Networks/WAN/Devices.png"
-              },
-              "icon": "lucide-image",
-              "title": "Devices"
-            }
-          },
-          {
-            "id": "a386bb8499b291d6",
+            "id": "fec4bbdde205d315",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,6 +33,202 @@
               },
               "icon": "lucide-file",
               "title": "WAN"
+            }
+          },
+          {
+            "id": "d6eca6b7fa3b47b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NSCS/Networks/WAN/Modern WAN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Modern WAN"
+            }
+          },
+          {
+            "id": "6b6a2abd480cdc3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NSCS/Networks/WAN/Modern WAN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Modern WAN"
+            }
+          },
+          {
+            "id": "e92c38887159a491",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NSCS/Networks/WAN/Modern WAN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Modern WAN"
+            }
+          },
+          {
+            "id": "0b590600bc1209e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NSCS/protocols/PPP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PPP"
+            }
+          },
+          {
+            "id": "4ecdd7ca6f7ab103",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NSCS/Test - 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Test - 1"
+            }
+          },
+          {
+            "id": "6a47c111390a0b63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NSCS/Standart Organasitations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Standart Organasitations"
+            }
+          },
+          {
+            "id": "a187f791ab52441d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "NSCS/Networks/WAN/imgs/Cable WAN.png"
+              },
+              "icon": "lucide-image",
+              "title": "Cable WAN"
+            }
+          },
+          {
+            "id": "a1e63e81881bc54e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "NSCS/Networks/WAN/imgs/DSL and ppp.png"
+              },
+              "icon": "lucide-image",
+              "title": "DSL and ppp"
+            }
+          },
+          {
+            "id": "85caf8afe6f06d78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NSCS/Networks/WAN/Legacy WAN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Legacy WAN"
+            }
+          },
+          {
+            "id": "0788ca2c69825cf9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "DSL.png"
+              },
+              "icon": "lucide-image",
+              "title": "DSL"
+            }
+          },
+          {
+            "id": "2c552f6a7c24eced",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "NSCS/Networks/WAN/imgs/MPLS.png"
+              },
+              "icon": "lucide-image",
+              "title": "MPLS"
+            }
+          },
+          {
+            "id": "0a243bfc60fd2d22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NSCS/IP/IP-v6.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IP-v6"
+            }
+          },
+          {
+            "id": "0573486bd9d6265f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "NSCS/Networks/WAN/imgs/ethernet wan.png"
+              },
+              "icon": "lucide-image",
+              "title": "ethernet wan"
+            }
+          },
+          {
+            "id": "49db51e9e9d3a925",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "NSCS/Networks/WAN/imgs/Circuit Switching.png"
+              },
+              "icon": "lucide-image",
+              "title": "Circuit Switching"
+            }
+          },
+          {
+            "id": "a63d59fa3d53c801",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "NSCS/Networks/Cable/Serial Communication.png"
+              },
+              "icon": "lucide-image",
+              "title": "Serial Communication"
             }
           },
           {
@@ -60,7 +244,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,12 +345,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NSCS/Networks/Comparasons.md",
+                "file": "DSL.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Comparasons"
+              "title": "Outgoing links from DSL"
             }
           },
           {
@@ -195,7 +379,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -213,27 +397,42 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a386bb8499b291d6",
+  "active": "fec4bbdde205d315",
   "lastOpenFiles": [
+    "NSCS/Networks/WAN/Modern WAN.md",
+    "NSCS/Networks/WAN/WAN.md",
+    "WAN Connectivity.png",
+    "NSCS/VPN/VPN.md",
+    "NSCS/VPN",
+    "NSCS/Test - 1.md",
+    "NSCS/Standart Organasitations.md",
+    "NSCS/Networks/WAN/imgs/Cable WAN.png",
+    "NSCS/Networks/WAN/imgs/DSL and ppp.png",
+    "PKI.md",
+    "NSCS/protocols/PPP.md",
+    "NSCS/Networks/WAN/imgs/DSL connections.png",
+    "NSCS/Networks/WAN/imgs/DSL.png",
+    "NSCS/Networks/WAN/imgs/internet based wan.png",
+    "NSCS/Networks/WAN/imgs/MPLS.png",
+    "NSCS/Networks/WAN/imgs/Modern WAN Connections.png",
+    "NSCS/Networks/WAN/Legacy WAN.md",
+    "NSCS/IP/IP-v6.md",
+    "NSCS/IP/IP-v4.md",
+    "NSCS/DNS/Domain Name System.md",
+    "NSCS/IP",
+    "NSCS/IP/IP-Adress.md",
+    "NSCS/Networks/WAN/imgs/ethernet wan.png",
+    "NSCS/Networks/WAN/imgs/Modern WAN.png",
+    "NSCS/Networks/WAN/imgs",
+    "NSCS/Networks/Cable/Fiber Optic.md",
+    "NSCS/Networks/Cable/Serial Communication.md",
+    "NSCS/Networks/Cable",
     "NSCS/Networks/Comparisons.md",
     "NSCS/Networks/LAN.md",
     "NSCS/PKI/Public Key Infrastructure.md",
-    "NSCS/DNS/Domain Name System.md",
     "NSCS/DNS/DNS Sec.md",
-    "NSCS/DNS/DNS-Strukture.png",
-    "NSCS/Networks/WAN/WAN.md",
-    "NSCS/Networks/WAN/Devices.png",
-    "NSCS/Networks/WAN/terminology.png",
     "NSCS/OSI Model.md",
-    "NSCS/Osi Model.png",
-    "NSCS/Standart Organasitations.md",
-    "NSCS/OSI Model.png",
     "NSCS/Drawing 2024-12-07 18.09.17.excalidraw.md",
-    "NSCS/Networks/WAN/single Carrier.png",
-    "NSCS/Networks/WAN/Partally Meshed.png",
-    "NSCS/Networks/WAN/dual carrier.png",
-    "NSCS/Networks/WAN/Dual homed.png",
-    "NSCS/Networks/WAN/Hub and Spoke.png",
     "NSCS/PKI/asymmetrischen Kryptosystems.md",
     "NSCS/Networks",
     "NSCS/Networks/WAN",
@@ -242,19 +441,9 @@
     "NSCS/PKI/Certificate Authorities.md",
     "NSCS/PKI",
     "filename.excalidraw.md",
-    "NSCS/IP-Adress.md",
     "Untitled.canvas",
-    "NSCS/protocols/TCP.md",
-    "NSCS/protocols/UDP.md",
     "NSCS/protocols",
     "NSCS/DNS",
-    "Excalidraw/Drawing 2024-12-06 13.10.45.excalidraw.md",
-    "NSCS/Test - 1.md",
-    "README.md~",
-    "Excalidraw/Drawing 2024-12-06 13.22.36.excalidraw.md",
-    "Excalidraw",
-    "Domain.md",
-    "README.md",
-    "NSCS"
+    "README.md~"
   ]
 }
