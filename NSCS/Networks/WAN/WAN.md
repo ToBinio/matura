@@ -225,11 +225,7 @@ Wireless technology uses the unlicensed radio spectrum to send and receive data.
 [[VPN|VPNs]] can be used to address security concerns incurred when a remote office worker uses broadband services to access the corporate WAN over the internet.
 A VPN is an encrypted connection between private networks over a public network. VPN tunnels are routed through the internet from the private network of the company to the remote site or employee host.
 
-There are several benefits to using VPN:
-- **Cost savings** - Eliminates expensive, dedicated WAN links and modem banks.
-- **Security** - Advanced encryption and authentication protocols protect data from unauthorized access.
-- **Scalability** - Corporations can add large amounts of capacity without adding significant infrastructure.
-- **Compatibility with broadband technology** - Supported by broadband service providers such as DSL and cable.
+There are several [[VPN#Benefits|benefits to using VPN]]
 
 VPNs are commonly implemented as the following:
 - **Site-to-site VPN** - VPN settings are configured on routers. Clients are unaware that their data is being encrypted.

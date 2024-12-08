@@ -1,6 +1,6 @@
 
 ## Zusammenfassung
-DNSSEC (Domain Name System Security Extensions) verbessert die Sicherheit von DNS, indem es die Authentizität und Integrität von DNS-Antworten durch digitale Signaturen garantiert. Dies schützt vor unbemerkten Umleitungen und sorgt für mehr Vertrauen im Internet.
+DNSSEC (Domain Name System Security Extensions) verbessert die Sicherheit von DNS, indem es die Authentizität und Integrität von DNS-Antworten durch [[Digitale Signaturen]] garantiert. Dies schützt vor unbemerkten Umleitungen und sorgt für mehr Vertrauen im Internet.
 
 **Vorteile:**
 

@@ -23,7 +23,7 @@ Namen in [[IP-Adress]]. Dadurch kann man Rechner und Dienste über eine Domain w
 - Meta Daten können definiert werden
 ---
 ## Struktur
-![[Drawing 2024-12-06 13.10.45.excalidraw|1000]]
+![[Domain.excalidraw|1000]]
 
 ### Top Level
 Die Top Level Domains werden einem Land bzw. einer Region zugeordnet.
@@ -154,4 +154,4 @@ client2     IN  A   192.168.1.11
 ## DOH / DOT
 DOH steht für DNS über HTTPS. Dabei wird eine HTTPS Verbindung zwischen Client und DNS Resolver. Dadurch ist die Integrität, Vertraulichkeit und Authentizität zwischen DNS Resolver und Client gewährleistet. Bei den meisten Firewall Systemen scheint eine solche DNS Abfrage nicht als DNS Abfrage auf und kommt dadurch leichter durch Firewalls durch.
 
-DOT steht für DNS over TLS. Dabei wird die DNS Anfrage mittels TLS verschlüsselt übertragen. Dadurch ist die Integrität, Vertraulichkeit und Authentizität zwischen DNS Resolver und Client gewährleistet . Dabei wird der Port 853 verwendet.
+DOT steht für DNS over [[TLS]]. Dabei wird die DNS Anfrage mittels [[TLS]] verschlüsselt übertragen. Dadurch ist die Integrität, Vertraulichkeit und Authentizität zwischen DNS Resolver und Client gewährleistet . Dabei wird der Port 853 verwendet.
