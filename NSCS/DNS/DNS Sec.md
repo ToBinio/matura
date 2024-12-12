@@ -1,4 +1,4 @@
-Erweiterung für [[DNS Allgemein|DNS]], die die Authentizität und Integrität von [[DNS Struktur|Domain]]-Antworten mithilfe von [[Digitale Signaturen|Digitalen Signaturen]] gewährleistet.
+Erweiterung für [[DNS Allgemein|DNS]], die die Authentizität und Integrität von [[DNS Struktur|Domain]]-Antworten mithilfe von [[Digitale Signatur|Digitalen Signaturen]] gewährleistet.
 
 Seit 1995 bekannt, möglich erst nach 15 Jahren.
 
@@ -6,7 +6,7 @@ Verbreitung von DNSSec ist eingeschränkt, überhaupt in Gebieten mit vielen [[D
 Root Zone 2010 vollständig von ICANN signiert.
 
 **Vorteil**
-- Höhere Sicherheit im Internet (Keine falschen [[IP-Adress|IPs]] zu [[DNS Struktur|Domains]] druch [[Digitale Signaturen|Signatur]])
+- Höhere Sicherheit im Internet (Keine falschen [[IP-Adress|IPs]] zu [[DNS Struktur|Domains]] druch [[Digitale Signatur|Signatur]])
 
 **Mogliches Problem**
 - Korruptes Routing (Falsche [[IP-Adress|IP]] durch fehlerhaften Eintrag bekommen)

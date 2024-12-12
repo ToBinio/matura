@@ -1,4 +1,4 @@
-Beschreibt die Anforderungen für die Arbeitsweise einer [[NSCS-Jonas/PKI/Public Key Infrastructure|Public Key Infrastructure]]. Dient zur Analyse der Vertrauenswürdigkeit.
+Beschreibt die Anforderungen für die Arbeitsweise einer [[NSCS/PKI/Public Key Infrastructure|Public Key Infrastructure]]. Dient zur Analyse der Vertrauenswürdigkeit.
 
 ---
 
