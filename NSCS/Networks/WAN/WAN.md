@@ -222,10 +222,10 @@ Wireless technology uses the unlicensed radio spectrum to send and receive data.
 - **WiMAX** - Worldwide Interoperability for Microwave Access (WiMAX) is described in the [[Standart Organasitations|IEEE]] standard 802.16 Provides high-speed broadband service with wireless access and provides broad coverage like a cell phone network rather than through small Wi-Fi hotspots.
 
 ### VPN
-[[VPN|VPNs]] can be used to address security concerns incurred when a remote office worker uses broadband services to access the corporate WAN over the internet.
+[[VPN Allgemein|VPNs]] can be used to address security concerns incurred when a remote office worker uses broadband services to access the corporate WAN over the internet.
 A VPN is an encrypted connection between private networks over a public network. VPN tunnels are routed through the internet from the private network of the company to the remote site or employee host.
 
-There are several [[VPN#Benefits|benefits to using VPN]]
+There are several [[VPN Allgemein#VPN Vorteile|benefits to using VPN]]
 
 VPNs are commonly implemented as the following:
 - **Site-to-site VPN** - VPN settings are configured on routers. Clients are unaware that their data is being encrypted.

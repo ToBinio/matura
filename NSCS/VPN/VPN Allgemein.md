@@ -1,8 +1,8 @@
 Steht für Virtual Private Network und wird für end-to-end private Netzwerke. Virtuell, da Daten in einem privaten Netzwerk transportiert werden, was in Realität jedoch über ein öffentliches Netzwerk stattfindet. Durch Verschlüsselung werden Daten privat gehalten.
 
-![[Pasted image 20241212163018.png]]
+![[vpn.png]]
 
-**VPN Vorteile**
+**VPN Vorteile
 Sicherheit wird durch [[IPSec Allgemein|IPSec]] und [[SSL|SSL]] gewährleistet.
 
 | Bereich          | Beschreibung                                                                                                                                      |

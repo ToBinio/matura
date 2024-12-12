@@ -1,10 +1,10 @@
 Die Vertraulichkeit hängt vom Verschlüsselungsalgorithmus ab. Je mehr Möglichkeiten, umso sicherer.
 
-![[Pasted image 20241212172917.png]]
+![[IPsec Confidentiality.png]]
 
 Hier werden nur [[Symmetrische Verschlüsselung|symmetrische Verschlüsselungsverfahren]] verwendet:
 
-![[Pasted image 20241212173000.png]]
+![[IPsec Confidentiality overview.png]]
 
 ---
 

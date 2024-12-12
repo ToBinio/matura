@@ -14,11 +14,11 @@ Hierbei handelt es sich um das originale Datenpaket, welches gesendet wird. Dies
 **Transport Protocol**
 Das Protocol, worüber das Datenpaket in Wirklichkeit gesendet wird. Dieses kann [[IP-v4|IPv4]] oder [[IP-v6|IPv6]] sein.
 
-![[Pasted image 20241212160957.png]]
+![[GRE.png]]
 
 Beispielsweiser Verwendungszweck:
 
-![[Pasted image 20241212161024.png]]
+![[GRE tunnel.png]]
 
 ---
 

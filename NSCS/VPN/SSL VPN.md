@@ -1,12 +1,12 @@
 Verwendet die [[Public Key Infrastructure|Public Key Infrastructure]]. Gründe für/gegen [[SSL|SSL]]:
 
-| Feature                  | IPSec     | [[SSL\|SSL]] |
-|--------------------------|-----------|--------------|
-| Program-Unterstützung    | Groß      | Limitiert    |
-| Authentifizierungsstärke | Stark     | Mittel       |
-| Verschlüsselungsstärke   | Start     | Mittel-Stark |
-| Verbindungskomplexität   | Mittel    | Niedrig      |
-| Verbindungsoptionen      | Limitiert | Groß         |
+| Feature                  | IPSec                             | [[SSL\|SSL]]                         |
+| ------------------------ | --------------------------------- | ------------------------------------ |
+| Program-Unterstützung    | Groß                              | Limitiert - only web                 |
+| Authentifizierungsstärke | Stark                             | Mittel                               |
+| Verschlüsselungsstärke   | Start                             | Mittel-Stark                         |
+| Verbindungskomplexität   | Mittel - requires custom software | Niedrig - only requires browser      |
+| Verbindungsoptionen      | Limitiert - Only specific devices | Groß - Any device with a web browser |
 
 ---
 

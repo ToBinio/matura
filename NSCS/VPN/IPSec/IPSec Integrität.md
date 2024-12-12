@@ -1,7 +1,7 @@
 
 Die Daten dürfen sich nicht geändert haben. Mitthilfe von [[Hashed Message Authentication Code|Hashed Message Authentication Code (HMAC)]] wird dies durch einen Hash-Wert sichergestellt.
 
-![[Pasted image 20241212173426.png]]
+![[IPsec Integrity.png]]
 
 ---
 
