@@ -11,10 +11,14 @@
             "id": "2a6cfe2815d2f0a4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "NSCS/VPN/IPsec.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IPsec"
             }
           }
         ]
@@ -84,22 +88,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "597576e3ab1c3d13",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "035eeab6d29d5f87",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NSCS/Networks/WAN/WAN.md",
+                "file": "NSCS/VPN/IPsec.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for WAN"
+              "title": "Backlinks for IPsec"
             }
           },
           {
@@ -131,9 +125,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "NSCS/VPN/IPsec.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of IPsec"
             }
           },
           {
@@ -149,8 +145,7 @@
               "title": "Tags"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,7 +165,12 @@
   },
   "active": "2a6cfe2815d2f0a4",
   "lastOpenFiles": [
+    "NSCS/VPN/VPN.md",
+    "NSCS/VPN/IPsec.md",
     "NSCS/Test - 1.md",
+    "NSCS/PKI/Public Key Infrastructure.md",
+    "NSCS/PKI/Cross Zertifikate.png",
+    "NSCS/PKI/Digitale Signaturen.md",
     "NSCS/DNS/DNS-Strukture.png",
     "NSCS/DNS/DNS Sec.md",
     "NSCS/DNS/Domain.excalidraw.md",
@@ -180,14 +180,11 @@
     "NSCS/VPN/imgs/IPsec Confidentiality overview.png",
     "NSCS/VPN/imgs/IPsec Integrity.png",
     "NSCS/VPN/imgs/IPsec Hellman.png",
-    "NSCS/VPN/IPsec.md",
     "NSCS/VPN/imgs/Authentication.png",
-    "NSCS/VPN/VPN.md",
     "NSCS/protocols/TLS.md",
     "NSCS/Standart Organasitations.md",
     "NSCS/VPN/imgs/remote acess.png",
     "NSCS/Networks/WAN/imgs/WAN Connectivity.png",
-    "NSCS/VPN/imgs/vpn.png",
     "NSCS/Networks/WAN/WAN.md",
     "NSCS/Networks/WAN/Modern WAN.md",
     "NSCS/VPN/imgs",
@@ -205,13 +202,11 @@
     "NSCS/Networks/Cable",
     "NSCS/Networks/Comparisons.md",
     "NSCS/Networks/LAN.md",
-    "NSCS/PKI/Public Key Infrastructure.md",
     "NSCS/OSI Model.md",
     "NSCS/Drawing 2024-12-07 18.09.17.excalidraw.md",
     "NSCS/PKI/asymmetrischen Kryptosystems.md",
     "NSCS/Networks",
     "NSCS/Networks/WAN",
-    "NSCS/PKI/Zertifikate.md",
     "NSCS/PKI",
     "Untitled.canvas",
     "NSCS/protocols",

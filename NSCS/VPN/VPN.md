@@ -6,18 +6,18 @@
 
 ## Benefits
 
-| **Benefit**       | **Description**                                                                                                                                                                                      |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Encryption        | Modern VPNs now support encryption features, such as Internet Protocol Security (IPsec) and Secure Sockets Layer (SSL) VPNs to secure network traffic between sites.                                 |
-| **Cost Savings**  | Organizations can use VPNs to reduce their connectivity costs while simultaneously increasing remote connection bandwidth.                                                                           |
-| **Security**      | Encryption and authentication protocols protect data from unauthorized access.                                                                                                                       |
-| **Scalability**   | VPNs allow organizations to use the internet, making it easy to add new users without adding significant infrastructure.                                                                             |
-| **Compatibility** | VPNs can be implemented across a wide variety of WAN link options including broadband technologies. Remote workers can use these high-speed connections to gain secure access to corporate networks. |
+| **Benefit**       | **Description**                                                                                                                                                                                          |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Encryption        | Modern VPNs now support encryption features, such as Internet Protocol Security ([[IPsec]]) and Secure Sockets Layer (SSL) VPNs to secure network traffic between sites.                                 |
+| **Cost Savings**  | Organizations can use VPNs to reduce their connectivity costs while simultaneously increasing remote connection bandwidth.                                                                               |
+| **Security**      | Encryption and authentication protocols protect data from unauthorized access.                                                                                                                           |
+| **Scalability**   | VPNs allow organizations to use the internet, making it easy to add new users without adding significant infrastructure.                                                                                 |
+| **Compatibility** | VPNs can be implemented across a wide variety of [[WAN]] link options including broadband technologies. Remote workers can use these high-speed connections to gain secure access to corporate networks. |
 
 
 ## managed and deployed
 ### Enterprise VPNs
-common solution for securing enterprise traffic across the internet. Site-to-site and remote access VPNs are created and managed by the enterprise using IPsec and SSL VPNs.
+common solution for securing enterprise traffic across the internet. [[#Site to Site]] and [[#Remote-Access]] are created and managed by the enterprise using [[IPsec]] and SSL VPNs.
 ![[Enterprise Managed.png]]
 ### Service Provider VPNs
 created and managed by the provider network. The provider uses Multiprotocol Label Switching (MPLS) at Layer 2 or Layer 3 to create secure channels between an enterprise’s sites, effectively segregating the traffic from other customer traffic.
