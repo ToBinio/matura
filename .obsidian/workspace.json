@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fdba84694fa279fe",
+        "id": "ba9454b7efbe15af",
         "type": "tabs",
         "children": [
           {
-            "id": "f7b258f811dcdd22",
+            "id": "2a6cfe2815d2f0a4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NSCS/VPN/IPSec/IPSec Allgemein.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IPSec Allgemein"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -93,8 +89,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -103,8 +99,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NSCS/VPN/IPSec/IPSec Allgemein.md",
-                "collapseAll": false,
+                "file": "NSCS/Networks/WAN/WAN.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -113,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IPSec Allgemein"
+              "title": "Backlinks for WAN"
             }
           },
           {
@@ -122,12 +118,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NSCS/VPN/IPSec/IPSec Allgemein.md",
+                "file": "DSL.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from IPSec Allgemein"
+              "title": "Outgoing links from DSL"
             }
           },
           {
@@ -136,10 +132,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NSCS/VPN/IPSec/IPSec Allgemein.md"
+                "file": "NSCS/PKI/asymmetrischen Kryptosystems.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of IPSec Allgemein"
+              "title": "Outline of asymmetrischen Kryptosystems"
             }
           },
           {
@@ -155,12 +151,12 @@
               "title": "Tags"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 329.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,57 +166,58 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f7b258f811dcdd22",
+  "active": "2a6cfe2815d2f0a4",
   "lastOpenFiles": [
-    "NSCS/VPN/IPSec/IPSec Diffie-Hellman.md",
-    "NSCS/VPN/IPSec/IPSec Allgemein.md",
-    "NSCS/VPN/IPSec/IPSec Authentizität.md",
-    "NSCS/VPN/IPSec/IPSec Integrität.md",
-    "NSCS/VPN/IPSec/IPSec Vertraulichkeit.md",
-    "NSCS/VPN/IPSec/IPSec Protocol.md",
-    "NSCS/VPN/SSL VPN.md",
+    "NSCS/Test - 1.md",
+    "Untitled.canvas",
+    "NSCS/VPN/imgs/Remote Access simple.png",
+    "NSCS/VPN/imgs/IPsec Protocol choice.png",
     "NSCS/VPN/VPN Allgemein.md",
     "NSCS/VPN/Site To Site VPN.md",
     "NSCS/VPN/Service Provider VPN.md",
+    "NSCS/VPN/SSL VPN.md",
     "NSCS/VPN/Remote Access VPN.md",
+    "NSCS/VPN/IPSec/IPSec Virtual Tunnel Interface.md",
+    "NSCS/VPN/IPSec/IPSec Vertraulichkeit.md",
+    "NSCS/VPN/IPSec/IPSec Protocol.md",
+    "NSCS/VPN/IPSec/IPSec Integrität.md",
+    "NSCS/VPN/IPSec/IPSec Diffie-Hellman.md",
+    "NSCS/VPN/IPSec/IPSec Authentizität.md",
+    "NSCS/VPN/IPSec/IPSec Allgemein.md",
+    "NSCS/VPN/IPSec",
     "NSCS/VPN/General Routing Encapsulation.md",
     "NSCS/VPN/Enterprise VPN.md",
     "NSCS/VPN/Dynamic Multipoint VPN.md",
-    "NSCS/VPN/IPSec/IPSec Virtual Tunnel Interface.md",
-    "NSCS/PKI/Zertifikat.md",
-    "NSCS/PKI/X.509.md",
-    "NSCS/PKI/Public Key Infrastructure.md",
-    "NSCS/PKI/Public Key.md",
-    "NSCS/PKI/Private Key.md",
-    "NSCS/PKI/Directory Service.md",
-    "NSCS/PKI/Digitale Signatur.md",
-    "NSCS/PKI/Certification Practice Statement.md",
-    "NSCS/PKI/Certificate Policy.md",
-    "NSCS/PKI/Authorities/Registration Authorities.md",
-    "NSCS/PKI/Authorities/Certificate Revocation List.md",
-    "NSCS/VPN/imgs/vpn.png",
-    "Pasted image 20241212163018.png",
-    "NSCS/VPN/imgs/Site to site.png",
-    "NSCS/VPN/imgs/service provider.png",
-    "NSCS/VPN/imgs/remote acess.png",
-    "NSCS/VPN/imgs/Remote Access simple.png",
-    "NSCS/VPN/imgs/IpSec Virtual Tunnel Interface.png",
-    "NSCS/VPN/imgs/ipSec Tech.png",
-    "NSCS/VPN/imgs/IPsec Protocol choice.png",
-    "NSCS/VPN/imgs/IPsec Integrity.png",
-    "NSCS/VPN/IPSec",
+    "NSCS-Jonas/IPSec/IPSec Vertraulichkeit.md",
+    "NSCS-Jonas/IPSec/IPSec Protocol.md",
+    "NSCS-Jonas/IPSec/IPSec Integrität.md",
+    "NSCS-Jonas/IPSec/IPSec Diffie-Hellman.md",
+    "NSCS-Jonas/IPSec/IPSec Authentizität.md",
+    "NSCS-Jonas/IPSec/IPSec Allgemein.md",
+    "NSCS-Jonas/VPN/VPN Allgemein.md",
+    "NSCS-Jonas/VPN/SSL VPN.md",
+    "NSCS-Jonas/VPN/Site To Site VPN.md",
+    "NSCS-Jonas/VPN/Service Provider VPN.md",
+    "Pasted image 20241212194351.png",
+    "Pasted image 20241212194346.png",
+    "Pasted image 20241212194341.png",
+    "Pasted image 20241212194336.png",
+    "Pasted image 20241212193443.png",
+    "Pasted image 20241212193303.png",
+    "Pasted image 20241212193258.png",
+    "Pasted image 20241212192941.png",
+    "NSCS-Jonas/WAN",
     "NSCS-Jonas/IPSec",
     "NSCS-Jonas/PKI",
     "NSCS/PKI/imgs",
     "NSCS/PKI/Authorities",
     "DBI/Database Design",
     "DBI",
-    "NSCS/VPN",
-    "NSCS/DNS/imgs",
-    "NSCS/general",
-    "Untitled.canvas"
+    "NSCS-Jonas/VPN",
+    "NSCS/DNS/imgs"
   ]
 }
