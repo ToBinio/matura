@@ -7,11 +7,20 @@ To understand the WANs of today, it helps to know where they started.
 
 ### Leased Lines
 
-Point-to-point lines could be leased from a service provider and were called “leased lines”. The term refers to the fact that the organization pays a monthly lease fee to a service provider to use the line.
-- Leased lines are available in different fixed capacities and are generally priced based on the bandwidth required and the distance between the two connected points.    
-- There are two systems used to define the digital capacity of a copper media serial link:
-- **T-carrier** - Used in North America, T-carrier provides T1 links supporting bandwidth up to 1.544 Mbps and T3 links supporting bandwidth up to 43.7 Mbps.
-- **E-carrier** – Used in Europe, E-carrier provides E1 links supporting bandwidth up to 2.048 Mbps and E3 links supporting bandwidth up to 34.368 Mbps.
+***T-Carrier***
+Nordamerikanisch, T1 und T3
+
+***E-Carrier***
+Europäisch, E1 und E3
+
+**Vor/Nachteile von Mietbaren Point to Point Verbindungen**
+Positiv:
+- Einfach
+- Qualität (Geschwindigkeit)
+- Verfügbarkeit
+Negativ:
+- Kosten
+- Limitierte Flexibilität
 
 | ***Advantages***        |                                                                                                                                                                                                            |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -22,7 +31,7 @@ Point-to-point lines could be leased from a service provider and were called “
 | **Cost**                | **Point-to-point links are generally the most expensive type of WAN access. The cost of leased line solutions can become significant when they are used to connect many sites over increasing distances.** |
 | **Limited flexibility** | WAN traffic is often variable, and leased lines have a fixed capacity, so that the bandwidth of the line seldom matches the need exactly.                                                                  |
 
- [[WAN#Circuit switching]] connections are provided by Public Service Telephone Network (PSTN) carriers. The local loop connecting the CPE to the CO is copper media.
+ [[WAN switching#Circuit Switched Communication]] connections are provided by Public Service Telephone Network (PSTN) carriers. The local loop connecting the CPE to the CO is copper media.
  
 There are two traditional circuit-switched options:
 
@@ -34,7 +43,7 @@ There are two traditional circuit-switched options:
 - ISDN is a circuit-switching technology that enables the PSTN local loop to carry digital signals. This provided higher capacity switched connections than dialup access. ISDN provides for data rates from 45 Kbps to 2.048 Mbps.
 
 
-[[WAN#Packet Switching]] segments data into packets that are routed over a shared network. It allows many pairs of nodes to communicate over the same channel.
+[[WAN switching#Packet Switched Communication]] segments data into packets that are routed over a shared network. It allows many pairs of nodes to communicate over the same channel.
    
 There are two traditional (legacy) circuit-switched options:    
 

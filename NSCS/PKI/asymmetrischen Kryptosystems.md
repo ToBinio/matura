@@ -1,3 +1,0 @@
-In asymmetrischen Kryptosystemen benötigt der Sender für eine verschlüsselte Übermittlung den öffentlichen Schlüssel (Public Key) des Empfängers. Dieser könnte z. B. per E-Mail versendet oder von einer Webseite heruntergeladen werden. Dabei muss sichergestellt sein, dass es sich tatsächlich um den Schlüssel des Empfängers handelt und nicht um eine Fälschung eines Betrügers.
-
-Hierzu dienen nun [[Zertifikate|digitale Zertifikate]], die die Authentizität eines öffentlichen Schlüssels und seinen zuässigen Anwendungs- und Geltungsbereich bestätigen. Das [[Zertifikate|digitale Zertifikat]] ist selbst durch eine [[Digitale Signaturen|digitale Signatur]] geschützt, deren Echtheit mit dem öffentlichen Schlüssel des Ausstellers des Zertifikates geprüft werden kann.
