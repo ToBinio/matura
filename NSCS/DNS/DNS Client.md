@@ -1,4 +1,6 @@
-Zuerst wird die [[Hosts-Datei|Hosts-Datei]] angeschaut, bevor der [[DNS Allgemein|DNS]] angefragt wird. Als es kein [[DNS Allgemein|DNS]] gab, wurde nur die [[Hosts-Datei|Hosts-Datei]] für die Auflösung verwendet und automatisch vom Internet aktualisiert.
+Zuerst wird die [[Hosts-Datei|Hosts-Datei]] angeschaut, bevor der [[DNS Allgemein|DNS]] angefragt wird.
+
+Als es kein [[DNS Allgemein|DNS]] gab, wurde nur die [[Hosts-Datei|Hosts-Datei]] für die Auflösung verwendet und automatisch vom Internet aktualisiert.
 
 ---
 > [!cite]-
