@@ -1,11 +1,12 @@
 Zwei Methoden:
+
 **Pre-shared Key (PSK)**
 Jeder Benutzer muss diesen Schlüssel eintragen. Einfach zum Aufsätzen, skaliert jedoch schlecht -> Muss bei jedem Benutzer eingegeben werden.
 
 **[[RSA|RSA]]**
 Hierfür werden [[Zertifikat|Zertifikate]] verwendet. Jeder Teilnehmer muss den anderen Teilnehmer vor der Kommunikation authentifizieren.
 
-![[Pasted image 20241212173823.png]]
+![[Authentication.png]]
 
 ---
 

@@ -1,4 +1,4 @@
-IPSec ist ein IETF Standard, welcher definiert, wie [[VPN Allgemein|VPNs]] innerhalb IP-Netzwerken sicher ein können. IPSec sichert und authentifiziert Pakete zwischen Quelle und Ziel.
+IPSec ist ein [[Standart Organasitations|IETF]] Standard, welcher definiert, wie [[VPN Allgemein|VPNs]] innerhalb IP-Netzwerken sicher ein können. IPSec sichert und authentifiziert Pakete zwischen Quelle und Ziel.
 
 | Bereich                                    | Beschreibung                                                            |
 | ------------------------------------------ | ----------------------------------------------------------------------- |
@@ -10,7 +10,7 @@ IPSec ist ein IETF Standard, welcher definiert, wie [[VPN Allgemein|VPNs]] inner
 
 IPSec ist an keine Regeln gebunden und kann sich somit gut an neue Technologien anpassen:
 
-![[Pasted image 20241212172253.png]]
+![[ipSec Tech.png]]
 
 ---
 

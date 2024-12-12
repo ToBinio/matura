@@ -1,8 +1,8 @@
 Verwaltet vom [[Enterprise VPN|Enterprise]] und verwendet [[Multiprotocol Label Switching|Multiprotocol Label Switching (MPLS)]] um Kunden-Verkehr von anderen Kunden-Verkehr zu trennen.
 
-![[Pasted image 20241212153941.png]]
+![[service provider.png]]
 
-Service Provider verwenden [[IPSec Allgemein|IPSec]] VTI:
+Service Provider verwenden [[IPSec Allgemein|IPSec]] [[IPSec Virtual Tunnel Interface|VTI]]:
 
 **Layer 3 MLPS VPN**
 Der Service Provider ist beim Routen der Pakete der Kunden involviert.

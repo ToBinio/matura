@@ -1,0 +1,1 @@
+Zone Walking (auch DNSSEC Walking oder Zone Enumeration) ist ein Verfahren, mit dem Angreifer den vollständigen Inhalt von DNSSEC signierten DNS-Zonen auslesen können. Dadurch können sicherheitsrelevante Informationen (z. B. IP-Adressen von Servern) ausgelesen werden, die ansonsten schwerer zu ermitteln wären.

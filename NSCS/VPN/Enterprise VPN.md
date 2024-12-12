@@ -1,6 +1,6 @@
 Verwaltet vom Enterprise unter Verwendung von [[IPSec Allgemein|IPSec]] und [[SSL|SSL]].
 
-![[Pasted image 20241212153941.png]]
+![[Enterprise Managed.png]]
 
 ---
 

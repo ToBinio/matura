@@ -1,6 +1,6 @@
 Benutzer weiß nicht, dass ein [[VPN Allgemein|VPN]] existiert. [[VPN Allgemein|VPN]] wird nur zwischen [[VPN Allgemein|VPN]]-Gatways verwendet.
 
-![[Pasted image 20241212153255.png]]
+![[Site to site.png]]
 
 **Site-To-Site IPSec VPN**
 Wird verwendet für eine Kommunikation über ein nicht vertrauliches Netzwerk. Hosts bekommen unverschlüsselte Daten von einem [[VPN Allgemein|VPN]]-Gateway. Ver/Entschlüsselung wird von den [[VPN Allgemein|VPN]]-Gateways durchgeführt.

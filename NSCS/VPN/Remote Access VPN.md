@@ -1,8 +1,8 @@
 [[VPN Allgemein|VPN-Verbindung]] wird dynamisch zwischen Benutzer und [[VPN Allgemein|VPN]]-Gateway aufgebaut.
 
-![[Pasted image 20241212153401.png]]
+![[Remote Access simple.png]]
 
-Stellen eine sichere Verbindung zum [[Enterprise VPN|Enterprise]] zur Verfügung. Diese Verbindungen werden von Benutzern dynamisch mittels IPSec oder [[SSL|SSL]] aufgebaut.
+Stellen eine sichere Verbindung zum [[Enterprise VPN|Enterprise]] zur Verfügung. Diese Verbindungen werden von Benutzern dynamisch mittels [[IPSec Allgemein|IPSec]] oder [[SSL|SSL]] aufgebaut.
 
 **Clientless VPN Connection**
 Web Browser mittels [[SSL|SSL]]
@@ -10,7 +10,7 @@ Web Browser mittels [[SSL|SSL]]
 **Client-based VPN Connection**
 Verwendung von [[VPN Allgemein|VPN]]-Software.
 
-![[Pasted image 20241212154854.png]]
+![[remote acess.png]]
 
 ---
 

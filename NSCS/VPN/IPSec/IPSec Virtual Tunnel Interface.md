@@ -3,7 +3,7 @@ Vereinfacht die Konfiguration von mehreren Standorten
 - Ermöglicht Unicast und Multicast ohne [[General Routing Encapsulation|GRE]] manuell zu konfigurieren.
 - Kann zwischen Standorten oder mittels hub-and-spoke konfiguriert werden.
 
-![[Pasted image 20241212162146.png]]
+![[IpSec Virtual Tunnel Interface.png]]
 
 ---
 

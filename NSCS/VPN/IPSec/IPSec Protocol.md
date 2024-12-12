@@ -1,12 +1,11 @@
 Zwei Optionen:
-- AH
-	- Nur wenn Vertraulichkeit egal ist oder verboten ist
-- ESP
-	- Bietet Vertraulichkeit und Authentifizierung
+- AH - Nur wenn Vertraulichkeit egal ist oder verboten ist
+- ESP - Bietet Vertraulichkeit und Authentifizierung
+- AH + ESP
 
 Die Auswahl entscheidet, welche Möglichkeiten später verfügbar sind.
 
-![[Pasted image 20241212172905.png]]
+![[IPsec Protocol choice.png]]
 
 ---
 

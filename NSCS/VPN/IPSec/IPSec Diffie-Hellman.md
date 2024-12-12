@@ -1,7 +1,7 @@
 Ermöglicht es zwei Teilnehmern sicher einen Schlüssel auszutauschen. 
 Diffie-Hellman (DH) 1, 2, 5 sollten nicht mehr verwendet werden.
 
-![[Pasted image 20241212174217.png]]
+![[IPsec Hellman.png]]
 
 ---
 
