@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ba9454b7efbe15af",
+        "id": "5a54b0a72c4247e8",
         "type": "tabs",
         "children": [
           {
-            "id": "2a6cfe2815d2f0a4",
+            "id": "a5ce41b35e84454d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NSCS-Jonas/PKI/Public Key Infrastructure.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Public Key Infrastructure"
+              "title": "New tab"
             }
           }
         ]
@@ -88,22 +84,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "597576e3ab1c3d13",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "035eeab6d29d5f87",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NSCS/Networks/WAN/WAN.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for WAN"
+              "title": "Backlinks"
             }
           },
           {
@@ -136,10 +121,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NSCS/PKI/asymmetrischen Kryptosystems.md"
+                "file": "NSCS/VPN/IPsec.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of asymmetrischen Kryptosystems"
+              "title": "Outline of IPsec"
             }
           },
           {
@@ -159,8 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,54 +158,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2a6cfe2815d2f0a4",
+  "active": "a5ce41b35e84454d",
   "lastOpenFiles": [
-    "NSCS-Jonas/PKI/Registration Authorities.md",
-    "NSCS-Jonas/PKI/X.509.md",
-    "NSCS-Jonas/PKI/Zertifikat.md",
-    "NSCS-Jonas/PKI/Public Key Infrastructure.md",
-    "NSCS-Jonas/PKI/Directory Service.md",
-    "NSCS-Jonas/PKI/Digitale Signatur.md",
-    "NSCS-Jonas/PKI/Certification Practice Statement.md",
-    "NSCS-Jonas/PKI/Certificate Revocation List.md",
-    "NSCS-Jonas/PKI/Certificate Authority.md",
-    "NSCS-Jonas/PKI/Certificate Policy.md",
-    "NSCS/general/Windows Server.md",
-    "Pasted image 20241212143538.png",
-    "Pasted image 20241212143530.png",
-    "Pasted image 20241212141650.png",
-    "Pasted image 20241212141035.png",
-    "NSCS/protocols/HTTPs.md",
-    "NSCS/Networks/Firewall.md",
-    "NSCS/DNS/imgs/Domain.excalidraw.md",
-    "NSCS/DNS/imgs/DNS-Strukture.png",
-    "NSCS/DNS/imgs",
-    "NSCS/DNS/DNS Struktur.md",
-    "NSCS/DNS/DNS Server.md",
-    "NSCS/DNS/DNS Resolver.md",
-    "NSCS/DNS/DNS Namensauflösung.md",
-    "NSCS/DNS/DNS Eintrag.md",
-    "NSCS/DNS/DNS Client.md",
-    "NSCS/DNS/DNS Allgemein.md",
-    "NSCS/general/LDAP.md",
-    "NSCS/general/Active Directory.md",
-    "NSCS/general/X.500.md",
-    "NSCS/protocols/Server-Based Certificate Validation Protocol.md",
-    "NSCS/protocols/Online Certificate Status Protocol.md",
-    "Pasted image 20241212124748.png",
-    "NSCS/PKI/Digitale-Signatur.png",
-    "Pasted image 20241212115706.png",
-    "Pasted image 20241212115357.png",
-    "NSCS-Jonas/PKI",
-    "NSCS/general",
+    "DBI/Database Design/Database Systems History.md",
+    "NSCS/VPN/IPsec.md",
+    "DBI/Database Design",
+    "DBI",
+    "NSCS/VPN/VPN.md",
+    "NSCS/Test - 1.md",
+    "NSCS/PKI/Public Key Infrastructure.md",
+    "NSCS/PKI/Cross Zertifikate.png",
+    "NSCS/PKI/Digitale Signaturen.md",
     "NSCS/DNS/DNS-Strukture.png",
-    "NSCS-Jonas/DNS",
-    "NSCS-Jonas",
-    "Untitled.canvas",
+    "NSCS/DNS/DNS Sec.md",
+    "NSCS/DNS/Domain.excalidraw.md",
+    "NSCS/DNS/Domain Name System.md",
+    "NSCS/VPN/imgs/ipSec Tech.png",
+    "NSCS/VPN/imgs/IPsec Confidentiality.png",
+    "NSCS/VPN/imgs/IPsec Confidentiality overview.png",
+    "NSCS/VPN/imgs/IPsec Integrity.png",
+    "NSCS/VPN/imgs/IPsec Hellman.png",
+    "NSCS/VPN/imgs/Authentication.png",
+    "NSCS/protocols/TLS.md",
+    "NSCS/Standart Organasitations.md",
+    "NSCS/VPN/imgs/remote acess.png",
+    "NSCS/Networks/WAN/imgs/WAN Connectivity.png",
+    "NSCS/Networks/WAN/WAN.md",
+    "NSCS/Networks/WAN/Modern WAN.md",
     "NSCS/VPN/imgs",
     "NSCS/VPN",
+    "PKI.md",
+    "NSCS/protocols/PPP.md",
+    "NSCS/Networks/WAN/Legacy WAN.md",
+    "NSCS/IP/IP-v6.md",
+    "NSCS/IP/IP-v4.md",
     "NSCS/IP",
+    "NSCS/IP/IP-Adress.md",
     "NSCS/Networks/WAN/imgs",
-    "NSCS/Networks/Cable"
+    "NSCS/Networks/Cable/Fiber Optic.md",
+    "NSCS/Networks/Cable/Serial Communication.md",
+    "NSCS/Networks/Cable",
+    "NSCS/Networks/Comparisons.md",
+    "NSCS/Networks/LAN.md",
+    "NSCS/OSI Model.md",
+    "NSCS/Drawing 2024-12-07 18.09.17.excalidraw.md",
+    "NSCS/PKI/asymmetrischen Kryptosystems.md",
+    "NSCS/Networks",
+    "NSCS/Networks/WAN",
+    "NSCS/PKI",
+    "Untitled.canvas"
   ]
 }
