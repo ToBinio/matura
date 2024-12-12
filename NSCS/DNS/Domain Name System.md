@@ -148,7 +148,7 @@ client2     IN  A   192.168.1.11
     Gibt die verantwortliche Person für die Domain an.
 
 ---
-### [[DNS Sec]]
+### [[NSCS/DNS/DNS Sec]]
 
 --- 
 ## DOH / DOT

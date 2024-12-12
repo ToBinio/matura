@@ -2,12 +2,12 @@
 ![[PKI.png]]
 Mit Hilfe eines [[asymmetrischen Kryptosystems]] können Nachrichten in einem Netzwerk digital signiert und verschlüsselt werden. Sichere Kryptosysteme können bei geeigneter Wahl der Parameter (z. B. der Schlüssellänge) auch bei Kenntnis des Verfahrens zumindest nach heutigem Kenntnisstand nicht in überschaubarer Zeit gebrochen werden.
 
-Um die Authentizität des Ausstellerschlüssels zu prüfen, wird wiederum ein [[Zertifikate|digitales Zertifikat]] benötigt. Auf diese Weise lässt sich eine Kette von digitalen Zertifikaten aufbauen, die jeweils die Authentizität des öffentlichen Schlüssels bestätigen, mit dem das vorhergehende Zertifikat geprüft werden kann. Eine solche Kette von Zertifikaten wird Validierungspfad oder Zertifizierungspfad genannt. Auf die Echtheit des letzten Zertifikates (und des durch diesen zertifizierten Schlüssel) müssen sich die Kommunikationspartner ohne ein weiteres Zertifikat verlassen können.
+Um die Authentizität des Ausstellerschlüssels zu prüfen, wird wiederum ein [[NSCS/PKI/Zertifikate|digitales Zertifikat]] benötigt. Auf diese Weise lässt sich eine Kette von digitalen Zertifikaten aufbauen, die jeweils die Authentizität des öffentlichen Schlüssels bestätigen, mit dem das vorhergehende Zertifikat geprüft werden kann. Eine solche Kette von Zertifikaten wird Validierungspfad oder Zertifizierungspfad genannt. Auf die Echtheit des letzten Zertifikates (und des durch diesen zertifizierten Schlüssel) müssen sich die Kommunikationspartner ohne ein weiteres Zertifikat verlassen können.
 
 ---
 
 ### Bestandteile
-- [[Zertifikate|Digitale Zertifikate]]
+- [[NSCS/PKI/Zertifikate|Digitale Zertifikate]]
 - [[Certificate Authorities|Zertifizierungsstelle (Certificate Authority, CA)]]
 - **Registrierungsstelle (Registration Authority, RA)**
   Organisation, bei der Personen, Maschinen oder auch untergeordnete Zertifizierungsstellen Zertifikate beantragen können. Diese prüft die Richtigkeit der Daten im gewünschten Zertifikat und genehmigt den Zertifikatsantrag, der dann durch die Zertifizierungsstelle signiert wird. Bei einer manuellen Prüfung wird diese durch den Registration Authority Officer durchgeführt
@@ -30,17 +30,17 @@ Um die Authentizität des Ausstellerschlüssels zu prüfen, wird wiederum ein [[
 
 ## Vertrauensmodelle
 
-[[Zertifikate]] stellen im Wesentlichen digitale Beglaubigungen dar. Somit stellt das Vertrauen zwischen dem Prüfer und dem Aussteller eines Zertifikates sowie die Art und Weise, wie dieses Vertrauen zustande kommt, die wesentliche Basis für die Verwendung digitaler Zertifikate dar. Umgekehrt lassen sich solche Vertrauensmodelle in der Regel erst durch Zertifikate technisch umsetzen.
+[[NSCS/PKI/Zertifikate]] stellen im Wesentlichen digitale Beglaubigungen dar. Somit stellt das Vertrauen zwischen dem Prüfer und dem Aussteller eines Zertifikates sowie die Art und Weise, wie dieses Vertrauen zustande kommt, die wesentliche Basis für die Verwendung digitaler Zertifikate dar. Umgekehrt lassen sich solche Vertrauensmodelle in der Regel erst durch Zertifikate technisch umsetzen.
 
 ### Streng hierachische PKI
 Oft werden Zertifikate innerhalb einer komplett hierarchischen PKI eingesetzt. Dieses Vertrauensmodell setzt die Existenz einer Wurzelinstanz ([[Certificate Authorities|Root-CA]]) voraus: einer obersten Zertifizierungsstelle, der alle teilnehmenden Parteien vertrauen. In der Praxis (zumindest auf globaler Ebene) gibt es jedoch eine solche Instanz nicht. So betreiben etwa verschiedene Länder und multinationale Unternehmen jeweils eigene hierarchische PKIs mit eigenen Wurzelinstanzen. Die Ursache dafür liegt weniger in mangelndem Vertrauen in andere PKIs oder Wurzelinstanzen, als vielmehr im Wunsch nach vollständiger Kontrolle der Regeln innerhalb der eigenen PKI.
 
 ![[Hierachische PKI.png]]
 
-[[Zertifikate]] von wichtigen [[Certificate Authorities|Root-CAs]] sind oft in die verarbeitende Software integriert (z.B. Browser). Problematisch dabei ist jedoch, dass Aussagen über die Anforderungen für die Ausstellung der Zertifikate und damit über ihre Vertrauenswürdigkeit und zulässige Anwendungsbereiche nur über die jeweilige PKI-Dokumentation getroffen werden können.
+[[NSCS/PKI/Zertifikate]] von wichtigen [[Certificate Authorities|Root-CAs]] sind oft in die verarbeitende Software integriert (z.B. Browser). Problematisch dabei ist jedoch, dass Aussagen über die Anforderungen für die Ausstellung der Zertifikate und damit über ihre Vertrauenswürdigkeit und zulässige Anwendungsbereiche nur über die jeweilige PKI-Dokumentation getroffen werden können.
 
 ### Cross-Zertifizierung
-Eine Möglichkeit, die Anwendung von [[Zertifikate|Zertifikaten]] über die Grenzen verschiedener hierarchischer PKIs hinweg zu ermöglichen, ist die Cross-Zertifizierung. Dabei stellen sich zwei Zertifizierungsstellen (meist Wurzelinstanzen) gegenseitig ein (Cross-)Zertifikat aus. Im Unterschied zu normalen Zertifikaten in einer hierarchischen PKI drücken Cross-Zertifikate das Vertrauen zweier gleichberechtigter Parteien aus, d. h. die Regelungen der einen [[Certificate Authorities|Wurzelinstanz]] sind für die PKI der anderen Wurzelinstanz nicht verbindlich, oder nur insoweit verbindlich, als sie deren eigenen Regelungen nicht widersprechen. Die Interpretation der durch ein Cross-Zertifikat ausgedrückten Vertrauensbeziehung ist daher manchmal nicht einfach und in vielen Fällen nicht einmal eindeutig.
+Eine Möglichkeit, die Anwendung von [[NSCS/PKI/Zertifikate|Zertifikaten]] über die Grenzen verschiedener hierarchischer PKIs hinweg zu ermöglichen, ist die Cross-Zertifizierung. Dabei stellen sich zwei Zertifizierungsstellen (meist Wurzelinstanzen) gegenseitig ein (Cross-)Zertifikat aus. Im Unterschied zu normalen Zertifikaten in einer hierarchischen PKI drücken Cross-Zertifikate das Vertrauen zweier gleichberechtigter Parteien aus, d. h. die Regelungen der einen [[Certificate Authorities|Wurzelinstanz]] sind für die PKI der anderen Wurzelinstanz nicht verbindlich, oder nur insoweit verbindlich, als sie deren eigenen Regelungen nicht widersprechen. Die Interpretation der durch ein Cross-Zertifikat ausgedrückten Vertrauensbeziehung ist daher manchmal nicht einfach und in vielen Fällen nicht einmal eindeutig.
 
 ![[Cross Zertifikate.png]]
 
@@ -51,7 +51,7 @@ Ein Anwendungsfall war die CA „Let’s Encrypt“. Als diese CA gegründet wur
 ### Web of Trust
 Ein zur Zertifizierungshierarchie komplett konträres Vertrauensmodell wird durch die Verschlüsselungssoftware PGP und die OpenSource-Variante Gnu Privacy Guard genutzt (Beide basieren auf OpenPGP und sind zueinander kompatibel).
 
-Ein [[Zertifikate|Zertifikat]] kann von jedem Benutzer (Web-of-Trust-Mitglied) erzeugt werden. Glaubt ein Benutzer daran, dass ein öffentlicher Schlüssel tatsachlich zu der Person gehört, die ihn veröffentlicht, so erstellt er ein Zertifikat, indem er diesen öffentlichen Schlüssel signiert. Andere Benutzer können aufgrund dieses Zertifikates entscheiden, ob auch sie darauf vertrauen wollen, dass der Schlüssel zum angegebenen Benutzer gehört oder nicht. Je mehr Zertifikate an einem Schlüssel hängen, desto sicherer kann man sein, dass dieser Schlüssel tatsächlich dem angegebenen Eigentümer gehört.
+Ein [[NSCS/PKI/Zertifikate|Zertifikat]] kann von jedem Benutzer (Web-of-Trust-Mitglied) erzeugt werden. Glaubt ein Benutzer daran, dass ein öffentlicher Schlüssel tatsachlich zu der Person gehört, die ihn veröffentlicht, so erstellt er ein Zertifikat, indem er diesen öffentlichen Schlüssel signiert. Andere Benutzer können aufgrund dieses Zertifikates entscheiden, ob auch sie darauf vertrauen wollen, dass der Schlüssel zum angegebenen Benutzer gehört oder nicht. Je mehr Zertifikate an einem Schlüssel hängen, desto sicherer kann man sein, dass dieser Schlüssel tatsächlich dem angegebenen Eigentümer gehört.
 
 ![[web of trust.png]]
 
