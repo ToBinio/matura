@@ -1,4 +1,4 @@
-Verwendet die [[NSCS-Jonas/PKI/Public Key Infrastructure|Public Key Infrastructure]]. Gründe für/gegen [[SSL|SSL]]:
+Verwendet die [[Public Key Infrastructure|Public Key Infrastructure]]. Gründe für/gegen [[SSL|SSL]]:
 
 | Feature                  | IPSec     | [[SSL\|SSL]] |
 |--------------------------|-----------|--------------|
