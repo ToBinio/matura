@@ -1,4 +1,6 @@
-Zertifikate die vor Ablauf der Gültigkeit zurückgezogen wurden. Meist aus Sicherheit oder Ungültigkeit. Wird periodisch neu generiert und aktualisiert.
+Zertifikate die vor Ablauf der Gültigkeit zurückgezogen wurden. Meist aus Sicherheit oder Ungültigkeit. Wird periodisch neu generiert und aktualisiert. Diese kann auch durch eine Positiv-Liste (White-List) ersetzt werden. Diese beiden Varianten sind offline Statusüberprüfungen.
+
+Für online Statusüberprüfungen gibt es z.B. die Protokolle [[Online Certificate Status Protocol|OCSP]] oder [[Server-Based Certificate Validation Protocol|SCVP]]. Diese werden eingesetzt wenn die Überprüfung zeitgenau erfolgen muss.
 
 ---
 

@@ -11,10 +11,14 @@
             "id": "2a6cfe2815d2f0a4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "NSCS-Jonas/PKI/Public Key Infrastructure.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Public Key Infrastructure"
             }
           }
         ]
@@ -131,9 +135,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "NSCS/PKI/asymmetrischen Kryptosystems.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of asymmetrischen Kryptosystems"
             }
           },
           {
@@ -149,12 +155,12 @@
               "title": "Tags"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 329.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,51 +176,52 @@
   },
   "active": "2a6cfe2815d2f0a4",
   "lastOpenFiles": [
-    "NSCS/Test - 1.md",
-    "NSCS/DNS/DNS-Strukture.png",
-    "NSCS/DNS/DNS Sec.md",
-    "NSCS/DNS/Domain.excalidraw.md",
+    "NSCS-Jonas/PKI/Certificate Policy.md",
+    "NSCS-Jonas/PKI/Public Key Infrastructure.md",
+    "NSCS-Jonas/PKI/Certification Practice Statement.md",
+    "NSCS-Jonas/PKI/Certificate Revocation List.md",
+    "NSCS-Jonas/PKI/Directory Service.md",
+    "NSCS/general/LDAP.md",
+    "NSCS/general/Active Directory.md",
+    "NSCS-Jonas/PKI/Digitale Signatur.md",
+    "NSCS/general/X.500.md",
+    "NSCS-Jonas/PKI/Certificate Authority.md",
+    "NSCS/protocols/Server-Based Certificate Validation Protocol.md",
+    "NSCS/protocols/Online Certificate Status Protocol.md",
+    "NSCS-Jonas/PKI/Registration Authorities.md",
+    "NSCS-Jonas/PKI/Zertifikat.md",
+    "Pasted image 20241212124748.png",
+    "NSCS-Jonas/PKI/X.509.md",
+    "NSCS/PKI/Public Key.md",
+    "NSCS/PKI/Digitale-Signatur.png",
+    "NSCS/PKI/Private Key.md",
+    "NSCS-Jonas/DNS/DNS Struktur.md",
+    "NSCS-Jonas/DNS/DNS Server.md",
+    "NSCS-Jonas/DNS/DNS Sec.md",
+    "NSCS-Jonas/DNS/DNS Resolver.md",
+    "NSCS-Jonas/DNS/DNS Namensauflösung.md",
+    "NSCS-Jonas/DNS/DNS Eintrag.md",
+    "NSCS-Jonas/DNS/DNS Client.md",
+    "NSCS-Jonas/DNS/DNS Allgemein.md",
+    "Pasted image 20241212115706.png",
+    "Pasted image 20241212115357.png",
+    "NSCS-Jonas/PKI",
     "NSCS/DNS/Domain Name System.md",
+    "NSCS/general",
+    "NSCS/DNS/DNS-Strukture.png",
+    "Pasted image 20241212085232.png",
+    "Bildschirmfoto 2024-12-12 um 08.07.18.png",
+    "NSCS-Jonas/DNS",
+    "NSCS-Jonas",
+    "NSCS/PKI/Cross Zertifikate.png",
+    "NSCS/Networks/Cable/Serial Communication.png",
+    "Untitled.canvas",
     "NSCS/VPN/imgs/ipSec Tech.png",
-    "NSCS/VPN/imgs/IPsec Confidentiality.png",
-    "NSCS/VPN/imgs/IPsec Confidentiality overview.png",
-    "NSCS/VPN/imgs/IPsec Integrity.png",
-    "NSCS/VPN/imgs/IPsec Hellman.png",
-    "NSCS/VPN/IPsec.md",
-    "NSCS/VPN/imgs/Authentication.png",
-    "NSCS/VPN/VPN.md",
-    "NSCS/protocols/TLS.md",
-    "NSCS/Standart Organasitations.md",
-    "NSCS/VPN/imgs/remote acess.png",
-    "NSCS/Networks/WAN/imgs/WAN Connectivity.png",
-    "NSCS/VPN/imgs/vpn.png",
-    "NSCS/Networks/WAN/WAN.md",
-    "NSCS/Networks/WAN/Modern WAN.md",
     "NSCS/VPN/imgs",
     "NSCS/VPN",
-    "PKI.md",
-    "NSCS/protocols/PPP.md",
-    "NSCS/Networks/WAN/Legacy WAN.md",
-    "NSCS/IP/IP-v6.md",
-    "NSCS/IP/IP-v4.md",
     "NSCS/IP",
-    "NSCS/IP/IP-Adress.md",
     "NSCS/Networks/WAN/imgs",
-    "NSCS/Networks/Cable/Fiber Optic.md",
-    "NSCS/Networks/Cable/Serial Communication.md",
     "NSCS/Networks/Cable",
-    "NSCS/Networks/Comparisons.md",
-    "NSCS/Networks/LAN.md",
-    "NSCS/PKI/Public Key Infrastructure.md",
-    "NSCS/OSI Model.md",
-    "NSCS/Drawing 2024-12-07 18.09.17.excalidraw.md",
-    "NSCS/PKI/asymmetrischen Kryptosystems.md",
-    "NSCS/Networks",
-    "NSCS/Networks/WAN",
-    "NSCS/PKI/Zertifikate.md",
-    "NSCS/PKI",
-    "Untitled.canvas",
-    "NSCS/protocols",
-    "NSCS/DNS"
+    "NSCS/Networks"
   ]
 }

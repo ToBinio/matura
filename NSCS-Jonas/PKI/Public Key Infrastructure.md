@@ -11,7 +11,12 @@ Die [[Zertifikat|Zertifikats]]kette wird gebildet, in dem das [[Zertifikat|Zerti
 - [[Zertifikat|Zertifikate]]
 - [[Certificate Authority|Certificate Authorities]]
 - [[Registration Authorities|Registration Authorities]]
-- 
+- [[Certificate Revocation List|Certificate Revocation List]]
+- [[Directory Service|Directory Service]]
+- [[Certificate Policy|Certificate Policy]]
+- [[Certification Practice Statement|Certification Practice Statement]]
+- Dokumentation
+	- Dokumentation über die Handhabung des [[Private Key|privaten Schlüssels]], Schlüsselerzeugung usw. Beinhaltet teilweise die [[Certificate Policy|Certificate Policy]] und das [[Certification Practice Statement|Certification Practice Statement]]
 
 ---
 
