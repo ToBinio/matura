@@ -1,6 +1,6 @@
-Überprüfen die Identität des Absenders des [[Public Key|öffentlicher Schlüssel]] und unterschreibt diesen mit ihrem [[Private Key|privaten Schlüssel]]. Diese Zertifizierung ([[Zertifikat|Zertifikat]]) hat aus Sicherheitsgründen ein Ablaufdatum.
+Überprüfen die Identität des Absenders des [[Public Key|öffentlicher Schlüssel]] und [[Digitale Signatur|signiert]] diesen mit ihrem [[Private Key|privaten Schlüssel]]. Diese Zertifizierung ([[Zertifikat|Zertifikat]]) hat aus Sicherheitsgründen ein Ablaufdatum.
 
-Ungültige Zertifikate werden in der [[Certificate Revocation List|Certificate Revocation List]] aufgelistet und können abgefragt werden, um die Gültigkeit eines [[Zertifikat|Zertifikats]] zu verifizieren.
+Ungültige [[Zertifikat|Zertifikate]] werden in der [[Certificate Revocation List|Certificate Revocation List]] aufgelistet und können abgefragt werden, um die Gültigkeit eines [[Zertifikat|Zertifikats]] zu verifizieren.
 
 Die Vertraulichkeit einer Certificate Authority wird durch Stichproben ermittelt.
 

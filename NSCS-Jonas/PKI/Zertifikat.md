@@ -1,9 +1,9 @@
 ---
 
 ---
-Ein öffentlicher Schlüssel muss als vertrauenswürdig eingestuft werden. Hierfür gibt es [[Certificate Authority|Certificate Authorities]], welche Zertifikate ausstellen. Zertifikate beinhalten eine [[Digitale Signatur|digitale Signatur]] der [[Certificate Authority|Certificate Authority]].
+Ein [[Public Key|öffentlicher Schlüssel]] muss als vertrauenswürdig eingestuft werden. Hierfür gibt es [[Certificate Authority|Certificate Authorities]], welche [[Zertifikat|Zertifikate]] ausstellen. [[Zertifikat|Zertifikate]] beinhalten eine [[Digitale Signatur|digitale Signatur]] der [[Certificate Authority|Certificate Authority]].
 
-Reguliert sind digitale Zertifikate durch den [[X.509|X.509]] Standart.
+Reguliert sind digitale [[Zertifikat|Zertifikate]] durch den [[X.509|X.509 Standart]].
 
 ---
 

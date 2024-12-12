@@ -1,4 +1,4 @@
-Stellt Zertifikate mit den dazugehörigen Usern/Maschinen zur Verfügung. Meist ein [[LDAP|LDAP-Server]] ([[Active Directory|Active Directory]]). Seltener ein [[X.500|X.500 Server]].
+Stellt [[Zertifikat|Zertifikate]] mit den dazugehörigen Usern/Maschinen zur Verfügung. Meist ein [[LDAP|LDAP-Server]] ([[Active Directory|Active Directory]]). Seltener ein [[X.500|X.500 Server]].
 
 ---
 

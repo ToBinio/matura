@@ -2,10 +2,10 @@ Stellt Authentizität und Integrität sicher, nicht aber Geheimhaltung der Daten
 
 ![[Pasted image 20241212115357.png]]
 
-Zur Überprüfung wird der [[Public Key|Öffentliche Schlüssel]] des Absenders bekannt sein, meist über ein [[Zertifikat|Zertifikat]].
-In Österreich ist geregelt, das digitale Signaturen trotz Ablauf des [[Zertifikat|Zertifikats]] gültig wären.
+Zur Überprüfung muss der [[Public Key|Öffentliche Schlüssel]] des Absenders bekannt sein, meist über ein [[Zertifikat|Zertifikat]].
+In Österreich ist geregelt, das [[Digitale Signatur|digitale Signaturen]] trotz Ablauf des [[Zertifikat|Zertifikats]] gültig wären.
 
-Der für die Signatur verwendete Algorithmus muss ebenfalls angegeben werden.
+Der für die [[Digitale Signatur|Signature]] verwendete Algorithmus muss ebenfalls angegeben werden.
 
 ---
 
