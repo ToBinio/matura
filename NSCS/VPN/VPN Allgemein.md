@@ -2,7 +2,7 @@ Steht für Virtual Private Network und wird für end-to-end private Netzwerke. V
 
 ![[vpn.png]]
 
-**VPN Vorteile
+**VPN Vorteile**
 Sicherheit wird durch [[IPSec Allgemein|IPSec]] und [[SSL|SSL]] gewährleistet.
 
 | Bereich          | Beschreibung                                                                                                                                      |
@@ -12,12 +12,14 @@ Sicherheit wird durch [[IPSec Allgemein|IPSec]] und [[SSL|SSL]] gewährleistet.
 | Skalierbarkeit   | Können das Internet verwenden ohne neue Infrastruktur hinzuzufügen                                                                                |
 | Kompatibilität   | Es kann von überall aus zugegriffen werden. Auch über mehrere WAN Verbindungen                                                                    |
 
+**Deployment**
+- [[Enterprise VPN|Enterprise VPN]]
+- [[Service Provider VPN|Service Provider VPN]]
+
 **Allgemeine Arten VPNs**
 - [[Site To Site VPN|Site to Site VPNs]]
 - [[Remote Access VPN|Remote Access VPNs]]
 - [[SSL VPN|SSL VPNs]]
-- [[Enterprise VPN|Enterprise VPN]]
-- [[Service Provider VPN|Service Provider VPN]]
 
 **Erweiterungen von VPNs**
 - [[General Routing Encapsulation|General Routing Encapsulation]]
