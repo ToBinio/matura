@@ -7,6 +7,28 @@
 4. [[IP-Adress|IP]] der [[DNS Struktur|Domain]]
 5. [[DNS Allgemein|DNS Server]] speichert [[IP-Adress|IP]] im Cache
 
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant LocalDNS as Lokaler DNS-Server
+    participant RootDNS as DNS Root-Server
+    participant TLDServer as TLD-DNS-Server
+
+    Client->>LocalDNS: Anfrage senden
+    alt Antwort bekannt
+        LocalDNS->>Client: Antwort zurück (IP-Adresse, etc.)
+    else Antwort unbekannt
+        LocalDNS->>RootDNS: Anfrage an DNS Root-Server
+        RootDNS->>LocalDNS: IP des zuständigen TLD-DNS-Servers
+        LocalDNS->>TLDServer: Anfrage an TLD-DNS-Server
+        TLDServer->>LocalDNS: Gewünschter Eintrag (IP-Adresse, Telefon, etc.)
+    end
+    LocalDNS->>Client: Antwort zurück
+    LocalDNS-->>LocalDNS: Eintrag im Cache speichern
+
+```
+
 ### Reserve DNS
 Möglichkeit [[DNS Struktur|Domain]] zu [[IP-Adress|IP]] zu finden. "x3.x2.x1.x0.in.addr.arpa" lieftert den PRT Eintrag der [[DNS Struktur|Domain]] zurück.
 

@@ -1,6 +1,6 @@
 [[DNS Allgemein|DNS]] ist baumförmig aufgebaut:
 
-![[Bildschirmfoto 2024-12-12 um 08.07.18.png]]
+![[Domain.excalidraw|1000]]
 
 Der Root-"." wird nicht geschrieben.
 Jede einzelne Node ist nur für seinen Teil (.com) zuständig.

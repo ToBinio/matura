@@ -1,5 +1,5 @@
 ### Domain Name Service
-Ist ein hierarchisches System, dass verwendet wird, um Namen (google.com) in eine [[IP-Adress|IP-Adresse]] (99.182.16.192) aufzulösen.
+Ist ein hierarchisches System, dass verwendet wird, um [[DNS Struktur|Domains]] (google.com) in eine [[IP-Adress|IP-Adresse]] (99.182.16.192) [[DNS Namensauflösung|aufzulösen]].
 
 **Vorteile User**
 - [[DNS Struktur|Domains]] sind leichter zu merken als [[IP-Adress|IP-Adressen]]

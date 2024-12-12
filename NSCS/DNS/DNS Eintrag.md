@@ -1,7 +1,36 @@
-![[Pasted image 20241212085232.png]]
+```
+@   IN  SOA dns.foxplex.local. mail.foxplex.local. (
+        1       ; Serial
+        604800  ; Refresh
+        86400   ; Retry
+        2419200 ; Expire
+        86400   ; Negative Cache TTL
+    )
+
+; Nameserver
+@   IN  NS  dns.foxplex.local.
+
+; Mailserver
+@   IN  MX  10 mail.foxplex.local.
+
+; A-Records
+dns         IN  A   192.168.1.1
+mail        IN  A   192.168.1.2
+client1     IN  A   192.168.1.10
+client2     IN  A   192.168.1.11
+
+```
 
 - @: Platzhalter für die Domain
 - SOA: Start Of Authority
+	Enthält grundlegende Informationen über die Zone:
+    
+    - Zuständiger Server und E-Mail-Adresse des Administrators (erster Punkt durch „@“ ersetzt).
+    - **Serial**: Seriennummer des Eintrags.
+    - **Refresh**: Gültigkeitsdauer der Informationen.
+    - **Retry**: Intervall für Wiederholungsversuche bei Fehlern.
+    - **Expire**: Zeit, nach der der Eintrag ungültig wird, wenn der Server ausfällt.
+    - **Negative Cache TTL**: Dauer der Gültigkeit einer "keine Domain gefunden"-Meldung.
 - A: [[IP-v4|IPv4]]
 - AAAA: [[IP-v6|IPv6]] 
 - NS: Name Server
