@@ -2,7 +2,7 @@ Verwaltet vom [[Enterprise VPN|Enterprise]] und verwendet [[Multiprotocol Label 
 
 ![[Pasted image 20241212153941.png]]
 
-Service Provider verwenden IPSec VTI:
+Service Provider verwenden [[IPSec Allgemein|IPSec]] VTI:
 
 **Layer 3 MLPS VPN**
 Der Service Provider ist beim Routen der Pakete der Kunden involviert.

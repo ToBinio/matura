@@ -1,8 +1,8 @@
 Ist ein nicht sicheres Site-To-Site [[VPN Allgemein|VPN]] Protokoll, da keine Verschlüsselung verwendet wird. 
 
-[[General Routing Encapsulation|GRE]] umfasst verschiedenste Network Layer Protokolle, sowie Broad-/Multicast. Standart IPSec [[VPN Allgemein|VPNs]] können nur Unicast verwenden. 
+[[General Routing Encapsulation|GRE]] umfasst verschiedenste Network Layer Protokolle, sowie Broad-/Multicast. Standart [[IPSec Allgemein|IPSec]] [[VPN Allgemein|VPNs]] können nur [[Unicast|Unicast]] verwenden. 
 
-[[General Routing Encapsulation|GRE]] kann zusammen mit IPSec verwendet werden, um sicher zwischen [[VPN Allgemein|VPN]]-Gatways zu routen.
+[[General Routing Encapsulation|GRE]] kann zusammen mit [[IPSec Allgemein|IPSec]] verwendet werden, um sicher zwischen [[VPN Allgemein|VPN]]-Gatways zu routen.
 Wie genau [[General Routing Encapsulation|GRE]] eingesetzt wird kann durch folgendes beschrieben werden:
 
 **Passanger Protocol**

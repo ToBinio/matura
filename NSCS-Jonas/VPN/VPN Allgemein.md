@@ -3,7 +3,7 @@ Steht für Virtual Private Network und wird für end-to-end private Netzwerke. V
 ![[Pasted image 20241212163018.png]]
 
 **VPN Vorteile**
-Sicherheit wird durch IPSec und [[SSL|SSL]] gewährleistet.
+Sicherheit wird durch [[IPSec Allgemein|IPSec]] und [[SSL|SSL]] gewährleistet.
 
 | Bereich          | Beschreibung                                                                                                                                      |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |

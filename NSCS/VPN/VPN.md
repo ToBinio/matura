@@ -8,7 +8,7 @@
 
 | **Benefit**       | **Description**                                                                                                                                                                                          |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Encryption        | Modern VPNs now support encryption features, such as Internet Protocol Security ([[IPsec]]) and Secure Sockets Layer (SSL) VPNs to secure network traffic between sites.                                 |
+| Encryption        | Modern VPNs now support encryption features, such as Internet Protocol Security ([[NSCS/VPN/IPsec]]) and Secure Sockets Layer (SSL) VPNs to secure network traffic between sites.                                 |
 | **Cost Savings**  | Organizations can use VPNs to reduce their connectivity costs while simultaneously increasing remote connection bandwidth.                                                                               |
 | **Security**      | Encryption and authentication protocols protect data from unauthorized access.                                                                                                                           |
 | **Scalability**   | VPNs allow organizations to use the internet, making it easy to add new users without adding significant infrastructure.                                                                                 |
@@ -17,7 +17,7 @@
 
 ## managed and deployed
 ### Enterprise VPNs
-common solution for securing enterprise traffic across the internet. [[#Site to Site]] and [[#Remote-Access]] are created and managed by the enterprise using [[IPsec]] and SSL VPNs.
+common solution for securing enterprise traffic across the internet. [[#Site to Site]] and [[#Remote-Access]] are created and managed by the enterprise using [[NSCS/VPN/IPsec]] and SSL VPNs.
 ![[Enterprise Managed.png]]
 ### Service Provider VPNs
 created and managed by the provider network. The provider uses Multiprotocol Label Switching (MPLS) at Layer 2 or Layer 3 to create secure channels between an enterprise’s sites, effectively segregating the traffic from other customer traffic.
@@ -92,4 +92,4 @@ Today, service providers use [[Modern WAN#Multiprotocol Label Switching (MPLS)|M
 	- **[[OSI Model|Layer 2 MPLS VPN]]** - The service provider is not involved in the customer routing. Instead, the provider deploys a Virtual Private LAN Service (VPLS) to emulate an Ethernet multiaccess LAN segment over the MPLS network. No routing is involved. The customer’s routers effectively belong to the same multiaccess network.
 
 ---
-## [[IPsec]]
+## [[NSCS/VPN/IPsec]]
