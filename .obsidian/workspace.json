@@ -11,10 +11,13 @@
             "id": "2a6cfe2815d2f0a4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (workspace.json)"
             }
           }
         ]
@@ -149,8 +152,7 @@
               "title": "Tags"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,13 +170,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2a6cfe2815d2f0a4",
+  "active": "99b02046fbd575fd",
   "lastOpenFiles": [
-    "NSCS/Test - 1.md",
-    "NSCS/DNS/DNS-Strukture.png",
+    "DBI/Database Design/Database Systems History.md",
     "NSCS/DNS/DNS Sec.md",
-    "NSCS/DNS/Domain.excalidraw.md",
+    "Untitled.canvas",
+    "DBI/Database Design",
+    "Untitled",
+    "DBI",
+    "NSCS/Test - 1.md",
     "NSCS/DNS/Domain Name System.md",
+    "README.md",
+    "NSCS/DNS/DNS-Strukture.png",
+    "NSCS/DNS/Domain.excalidraw.md",
     "NSCS/VPN/imgs/ipSec Tech.png",
     "NSCS/VPN/imgs/IPsec Confidentiality.png",
     "NSCS/VPN/imgs/IPsec Confidentiality overview.png",
@@ -208,13 +216,7 @@
     "NSCS/PKI/Public Key Infrastructure.md",
     "NSCS/OSI Model.md",
     "NSCS/Drawing 2024-12-07 18.09.17.excalidraw.md",
-    "NSCS/PKI/asymmetrischen Kryptosystems.md",
     "NSCS/Networks",
-    "NSCS/Networks/WAN",
-    "NSCS/PKI/Zertifikate.md",
-    "NSCS/PKI",
-    "Untitled.canvas",
-    "NSCS/protocols",
-    "NSCS/DNS"
+    "NSCS/Networks/WAN"
   ]
 }
