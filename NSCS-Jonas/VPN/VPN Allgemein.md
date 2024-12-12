@@ -10,7 +10,7 @@ Sicherheit wird durch [[IPSec Allgemein|IPSec]] und [[SSL|SSL]] gewährleistet.
 | Kosten Ersparnis | Organizations can use VPNs to reduce their connectivity costs while simultaneously increasing remote connection bandwidth.<br>(Versteh ich nicht) |
 | Sicherheit       | Verschlüsselung von Daten                                                                                                                         |
 | Skalierbarkeit   | Können das Internet verwenden ohne neue Infrastruktur hinzuzufügen                                                                                |
-| Kompatibilität   | Es kann von überall aus zugegriffen werden. Auch über mehrere WAN Verbindungen                                                                    |
+| Kompatibilität   | Es kann von überall aus zugegriffen werden. Auch über mehrere [[WAN Allgemein\|WAN]] Verbindungen                                                 |
 
 **Allgemeine Arten VPNs**
 - [[Site To Site VPN|Site to Site VPNs]]

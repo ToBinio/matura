@@ -12,7 +12,7 @@
 | **Cost Savings**  | Organizations can use VPNs to reduce their connectivity costs while simultaneously increasing remote connection bandwidth.                                                                               |
 | **Security**      | Encryption and authentication protocols protect data from unauthorized access.                                                                                                                           |
 | **Scalability**   | VPNs allow organizations to use the internet, making it easy to add new users without adding significant infrastructure.                                                                                 |
-| **Compatibility** | VPNs can be implemented across a wide variety of [[WAN]] link options including broadband technologies. Remote workers can use these high-speed connections to gain secure access to corporate networks. |
+| **Compatibility** | VPNs can be implemented across a wide variety of [[NSCS/Networks/WAN/WAN]] link options including broadband technologies. Remote workers can use these high-speed connections to gain secure access to corporate networks. |
 
 
 ## managed and deployed

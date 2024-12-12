@@ -22,7 +22,7 @@ Point-to-point lines could be leased from a service provider and were called “
 | **Cost**                | **Point-to-point links are generally the most expensive type of WAN access. The cost of leased line solutions can become significant when they are used to connect many sites over increasing distances.** |
 | **Limited flexibility** | WAN traffic is often variable, and leased lines have a fixed capacity, so that the bandwidth of the line seldom matches the need exactly.                                                                  |
 
- [[WAN#Circuit switching]] connections are provided by Public Service Telephone Network (PSTN) carriers. The local loop connecting the CPE to the CO is copper media.
+ [[NSCS/Networks/WAN/WAN#Circuit switching]] connections are provided by Public Service Telephone Network (PSTN) carriers. The local loop connecting the CPE to the CO is copper media.
  
 There are two traditional circuit-switched options:
 
@@ -34,7 +34,7 @@ There are two traditional circuit-switched options:
 - ISDN is a circuit-switching technology that enables the PSTN local loop to carry digital signals. This provided higher capacity switched connections than dialup access. ISDN provides for data rates from 45 Kbps to 2.048 Mbps.
 
 
-[[WAN#Packet Switching]] segments data into packets that are routed over a shared network. It allows many pairs of nodes to communicate over the same channel.
+[[NSCS/Networks/WAN/WAN#Packet Switching]] segments data into packets that are routed over a shared network. It allows many pairs of nodes to communicate over the same channel.
    
 There are two traditional (legacy) circuit-switched options:    
 

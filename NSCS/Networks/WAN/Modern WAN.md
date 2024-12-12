@@ -9,7 +9,7 @@ New technologies are continually emerging. The figure summarizes the modern WAN 
 **Dedicated broadband**
 - Fiber can be installed independently by an organization to connect remote locations directly together.
 - Dark fiber can be leased or purchased from a supplier.
-[[WAN#Packet Switching]]    
+[[NSCS/Networks/WAN/WAN#Packet Switching]]    
 - Metro Ethernet – Replacing many traditional WAN options.
 - MPLS – Enables sites to connect to the provider regardless of its access technologies.
 **Internet-based broadband**    

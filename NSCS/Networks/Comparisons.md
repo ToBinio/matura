@@ -1,5 +1,5 @@
 
-| [[LAN\|Local Area Networks (LANs)]]                                            | [[WAN\|Wide Area Networks (WANs)]]                                                         |
+| [[LAN\|Local Area Networks (LANs)]]                                            | [[NSCS/Networks/WAN/WAN\|Wide Area Networks (WANs)]]                                                         |
 | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
 | LANs provide networking services within a small geographic area.               | WANs provide networking services over large geographical areas.                            |
 | LANs are used to interconnect local computers, peripherals, and other devices. | WANs are used to interconnect remote users, networks, and sites.                           |
