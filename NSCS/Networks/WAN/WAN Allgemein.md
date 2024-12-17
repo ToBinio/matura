@@ -9,6 +9,8 @@ Unterschiede zwischen LAN und WAN:
 | Keine Gebühren                              | Gebühren                                        |
 | Hohe Bandbreite                             | Mittlere bis hohe Bandbreite                    |
 
+---
+
 Ein privates WAN ist eine Verbindung, die einer einzelnen Person gehört.
 Zu den Vorteilen davon gehören:
 - Garantierter Service
@@ -16,38 +18,31 @@ Zu den Vorteilen davon gehören:
 - Sicherheit
 Was bei einem öffentlichen WAN nicht zutreffen muss.
 
+---
+
 **WAN Topologien**
 - [[WAN Point To Point|Point to Point]]
 - [[WAN Hub And Spoke|Hub and Spoke]]
 - [[WAN Dual Homed|Dual Homed]]
 - [[WAN Mesh|Mesh]]
 
-**Carrier Connections**
-Hierbei geht es darum, wie das WAN mit dem Internet verbunden ist. Carrier muss nicht der Service Provider sein. 
-
-***Single Carrier***
-Nur mit einem ISP verbunden:
-
-![[Pasted image 20241212182223.png]]
-
-***Dual Carrier***
-Mit zwei ISP verbunden. Bessere Redundanz und Netzwerkverfügbarkeit.
-
-![[Pasted image 20241212182305.png]]
+---
 
 Mögliche Entwicklung eines Unternehmensnetzwerks:
 Siehe PPP Folie 14
 
+---
+
 **WAN Operation**
 
-***Standards***
+***[[Standart Organasitations|Standards]]***
 - TIA/EIA
 - ISO
 - IEEE
 
-Im Bereich des WANs gibt es viele Protokolle auf Layer 1 & 2:
+Im Bereich des WANs gibt es viele Protokolle auf [[OSI Model|Layer 1 & 2]]:
 
-![[Pasted image 20241212182938.png]]
+![[Wan Osi.png]]
 
 **WAN Begriffe**
 
@@ -64,7 +59,9 @@ Im Bereich des WANs gibt es viele Protokolle auf Layer 1 & 2:
 | Backhaul network                    | siehe ppp 22                           |
 | Backbone network                    | siehe ppp 22                           |
 
-![[Pasted image 20241212183807.png]]
+![[terminology.png]]
+
+![[Devices.png]]
 
 **WAN Geräte**
 
@@ -77,170 +74,29 @@ Im Bereich des WANs gibt es viele Protokolle auf Layer 1 & 2:
 | Wireless Router / Access Point | Kabelose Verbindung mit einem WAN-netzwerk                |
 | WAN core devices               | Highspeed-Router und Layer 3 Switches                     |
 
-**Serielle Kommunikation**
-
-***Einzelnes Kabel***
-Byte für Byte wird hintereinander geschickt.
-
-***Parallel - Mehrere Kabel***
-Bytes werden auf die Kabel aufgeteilt. Nur für kurze Distanzen nützlich, da sonst der Syncronisierungsaufwand zu hoch ist.
-
-![[Pasted image 20241212184838.png]]
-
-**Circuit Switched Communication**
-Es wird zuerst ein Kanal zum Ziel im WAN aufgebaut, bevor kommuniziert wird. Immer der gleiche Pfad wird verwendet.
-- Public Switched Telephone Network (Niedrige Geschwindigkeit)
-- Integrated Services Digital Network
-
-![[Pasted image 20241212185248.png]]
-
-**Packet Switched Communication**
-Versteh ich nicht. Hilfe bitte.
-Billiger und einfacher. 
-- Ethernet WAN (Metro Ethernet)
-- Multiprotocol Label Switching (MPLS)
-- Frame Relay
-- Asynchronous Transfer Moder (ATM)
-
-![[Pasted image 20241212185443.png]]
-
-**Glasfaser Standards**
-Layer 1 Standards:
-***SDH***
-Globaler Standart für das transportieren von Daten über Glasfaser
-
-***SONET***
-Der nordamerikanische Standart für die selben Services wie SDH
-
-***Dense Wavelength Division Multiplexing***
-Neue Technologie, welche die Geschwindigkeit erhöht, indem man mehrere Streams in verschiedenen Frequenzen schickt.
-
-**Traditionelle WAN Verbindungen**
-LANs wurden über den ISP verbunden. Entweder wurden Verbindungen gemietet oder switched Services vom ISP verwendet:
-
-![[Pasted image 20241212190416.png]]
-
-**Mietbare Carrier**
-
-***T-Carrier***
-Nordamerikanisch, T1 und T3
-
-***E-Carrier***
-Europäisch, E1 und E3
-
-**Vor/Nachteile von Mietbaren Point to Point Verbindungen**
-Positiv:
-- Einfach
-- Qualität (Geschwindigkeit)
-- Verfügbarkeit
-Negativ:
-- Kosten
-- Limitierte Flexibilität
-
-**Dedizierte Leitung**
-Eigenes Glasfaser verlegen und Standorte verbinden.
-
-**Internet Based broadband**
-Verwendung des Internets für die Verbindung von Standorten
-
-![[Pasted image 20241212191604.png]]
-
-**Ethernet WAN**
-- Metro Ethernet
-- Ethernet over MPLS
-- Virtual Private LAN Service (VPLS)
-Billiger, einfache Integration und bessere Unternehmensproduktivität
-
-![[Pasted image 20241212192247.png]]
-
-**MPLS (Multiprotocol Label Switching)**
-WAN Technologie um Benutzer zu verbinden.
-Viele Anschlussmöglichkeiten (DLS, Ethernet, usw)
-Kann alle Protokolle umfassen
-
-***MPLS Router***
-- Customer Edge
-- Provider Edge
-- Internal Provider (P)
-
-Fügen Labels für das Routen zu den Paketen hinzu.
-Services für QoS, VPN, usw
-
-![[Pasted image 20241212192237.png]]
-
-### Internet Based Connectivity
-
-**Optionen**
-
-***Kabelgebunden**
-DLS, Glasfaser, ...
-
-***Kabellos***
-3G, 4G, 5G
-Nicht Stabil
-
-![[Pasted image 20241212192438.png]]
-
-**DLS (Digital Line Subscriber) Technologien**
-
-***ADSL (Asymmetrisch)***
-Besseren Downstream als Upstream
-
-***SDSL (Symmetrisch)***
-Gleicher Downstream wie Upstream
-
-![[Pasted image 20241212192734.png]]
-
-**DLS Verbindung**
-Ein DLS Modem konvertiert ein Ethernet Signal in ein DLS Signal, welchen dann an einen DLS Multiplexer geschickt wird.
-Jeder Nutzer hat eine eigene Verbindung zum DLS Multiplexer
-
-![[Pasted image 20241212192941.png]]
-
-**PPP**
-Ist ein Layer 2 Protokoll. PPP wird zum authentifizieren von Benutzern verwendet und fügt eine IP Adresse zum Subscriber hinzu. 
-
-Entweder der Host oder der Router ist der PPPoE Client:
-![[Pasted image 20241212193258.png]]
-![[Pasted image 20241212193303.png]]
-
-**Kabel Technologie**
-Daten werden mittels Kupferkabel und Glasfaser transportiert.
-
-![[Pasted image 20241212193443.png]]
-
-**Glasfaser**
-- Fiber To the Home (FTTH)
-- Fiber To The Building (FTTB)
-- Fiber To The Neighborhood (FTTN)
-
-**Wireless Internet Based Broadband**
-- Municipal Wi-Fi (In Städten)
-- Cellular (3G, 4G, 5G, LTE)
-- Satellite Internet (Wenn DLS nicht verfügbar ist)
-- WiMAX (Große Abdeckung)
-
 **ISP Connectivity Options**
 
 ***Single Homed***
 Eine einzelne Verbindung zum ISP
 
-![[Pasted image 20241212194336.png]]
+![[Single homed.png]]
 
 ***Dual-Homed***
 Mehrere Verbindungen zu einem ISP
 
-![[Pasted image 20241212194341.png]]
+![[dual homed 1.png]]
 
 ***Multi-Homed***
 Einzelne Verbindungen zu mehreren ISPs
 
-![[Pasted image 20241212194346.png]]
+![[multi homed.png]]
 
 ***Dual-Multi-Homed***
 Mehrere Verbindungen zu mehreren ISPs
 
-![[Pasted image 20241212194351.png]]
+![[dual multi homed.png]]
+
+---
 
 **Broadband solution comparison**
 

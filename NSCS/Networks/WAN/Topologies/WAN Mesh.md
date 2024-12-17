@@ -1,12 +1,12 @@
 **Fully Meshed**
 Verwendet mehrere virtuelle Verbindungen und Standorte miteinander zu verbinden. Sehr Fehlerresistent.
 
-![[Pasted image 20241212181710.png]]
+![[fully meshed 1.png]]
 
 **Partially Meshed**
 Verbindet viele, aber nicht jeden Standort mit jeden.
 
-![[Pasted image 20241212181749.png]]
+![[partialy meshed.png]]
 
 ---
 

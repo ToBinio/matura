@@ -1,7 +1,7 @@
 Ein einzelnes Interface beim Hub wird von allen Spokes verwendet. Spoke Router sind über den Hub Router miteinander verbunden.
 Hub Router ist ein Single Point Of Failure
 
-![[Pasted image 20241212181151.png]]
+![[Hub and spoke 1.png]]
 
 ---
 

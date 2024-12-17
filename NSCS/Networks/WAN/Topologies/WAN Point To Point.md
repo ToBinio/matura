@@ -1,6 +1,6 @@
 Verbindung zwischen zwei Punkten. Stellt ein Layer 2 transportations Service über das ISP Netzwerk zur Verfügung.
 
-![[Pasted image 20241212180916.png]]
+![[point to point 1.png]]
 
 
 ---

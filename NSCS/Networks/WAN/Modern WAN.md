@@ -1,41 +1,76 @@
-Modern WANS have more connectivity options than [[Legacy WAN|traditional WANs]].
+Modern WANS have more connectivity options than [[Traditional WAN|traditional WANs]].
 - Enterprises now require faster and more flexible WAN connectivity options.
 - Traditional WAN connectivity options have rapidly declined in use because they are either no longer available, too expensive, or have limited bandwidth.
 
 ![[Modern WAN.png]]
 
+---
+
 New technologies are continually emerging. The figure summarizes the modern WAN connectivity options.
 
-**Dedicated broadband**
-- Fiber can be installed independently by an organization to connect remote locations directly together.
-- Dark fiber can be leased or purchased from a supplier.
-[[NSCS/Networks/WAN/WAN#Packet Switching]]    
-- Metro Ethernet – Replacing many traditional WAN options.
-- MPLS – Enables sites to connect to the provider regardless of its access technologies.
-**Internet-based broadband**    
-- Organizations are now commonly using the global internet infrastructure for WAN connectivity.
 ![[Modern WAN Connections.png]]
 
-### Ethernet WAN
-Service providers now offer Ethernet WAN service using [[Fiber Optic|fiber-optic]] cabling.
-The Ethernet WAN service can go by many names, including the following:
-- **Metropolitan Ethernet (Metro E)**
-- **Ethernet over MPLS (EoMPLS)**
-- **Virtual Private LAN Service (VPLS)**
+**Dedizierte Leitung**
+Eigenes Glasfaser verlegen und Standorte verbinden.
 
-There are several benefits to an Ethernet WAN:
-- **Reduced expenses and administration**
-- **Easy integration with existing networks**
-- **Enhanced business productivity**
+**[[WAN switching#MPLS (Multiprotocol Label Switching)|MPLS switched]]**
+
+**Ethernet WAN**
+- Metro Ethernet
+- Ethernet over MPLS
+- Virtual Private LAN Service (VPLS)
+Billiger, einfache Integration und bessere Unternehmensproduktivität
 
 ![[ethernet wan.png]]
 
-### Multiprotocol Label Switching (MPLS)
+---
+### Internet Based Connectivity
 
-MPLS is a high-performance service provider WAN routing technology to interconnect clients without regard to access method or payload.
-- MPLS supports a variety of client access methods (e.g., Ethernet, DSL, Cable, Frame Relay).
-- MPLS can encapsulate all types of protocols including [[IP-v4|IPv4]] and [[IP-v6|IPv6]] traffic.
-- An MPLS router can be a customer edge (CE) router, a provider edge (PE) router, or an internal provider (P) router.
-- MPLS routers are label switched routers (LSRs). They attach labels to packets that are then used by other MPLS routers to forward traffic.
-- MPLS also provides services for QoS support, traffic engineering, redundancy, and VPNs.
-![[MPLS.png]]
+**Optionen**
+
+***Kabelgebunden**
+DLS, Glasfaser, ...
+
+***Kabellos***
+3G, 4G, 5G
+Nicht Stabil
+
+![[internet based wan.png]]
+
+**DLS (Digital Line Subscriber) Technologien**
+
+***ADSL (Asymmetrisch)***
+Besseren Downstream als Upstream
+
+***SDSL (Symmetrisch)***
+Gleicher Downstream wie Upstream
+
+![[DSL.png]]
+
+**DLS Verbindung**
+Ein DLS Modem konvertiert ein Ethernet Signal in ein DLS Signal, welchen dann an einen DLS Multiplexer geschickt wird.
+Jeder Nutzer hat eine eigene Verbindung zum DLS Multiplexer
+
+![[DSL connections.png]]
+
+**PPP**
+Ist ein Layer 2 Protokoll. PPP wird zum authentifizieren von Benutzern verwendet und fügt eine IP Adresse zum Subscriber hinzu. 
+
+Entweder der Host oder der Router ist der PPPoE Client:
+![[DSL and ppp.png]]
+
+**Kabel Technologie**
+Daten werden mittels Kupferkabel und Glasfaser transportiert.
+
+![[Cable WAN.png]]
+
+**Glasfaser**
+- Fiber To the Home (FTTH)
+- Fiber To The Building (FTTB)
+- Fiber To The Neighborhood (FTTN)
+
+**Wireless Internet Based Broadband**
+- Municipal Wi-Fi (In Städten)
+- Cellular (3G, 4G, 5G, LTE)
+- Satellite Internet (Wenn DLS nicht verfügbar ist)
+- WiMAX (Große Abdeckung)

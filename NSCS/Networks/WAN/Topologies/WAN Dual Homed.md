@@ -1,6 +1,6 @@
 Verbessert die Netzwerkverfügbarkeit und verteilt die Last der Hubs. Ebenfalls ermöglicht dies Backups. Ist jedoch sehr teuer und komplizierter zum Aufsetzen.
 
-![[Pasted image 20241212181218.png]]
+![[Dual homed 2.png]]
 
 ---
 
