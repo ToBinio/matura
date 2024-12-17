@@ -1,4 +1,4 @@
-Es können bis zu 63 sekundäre [[MongoDb Indices Allgemein|Indices]] pro Collection erstellt werden. Werden als Optimierung von komplexen Abfragen erstellt. Namen für [[MongoDb Indices Allgemein|Indices]] werden automatisch erstellt, können aber auch selber gesetzt werden.
+Index auf beliebigen Feldern. Es können bis zu 63 sekundäre [[MongoDb Indices Allgemein|Indices]] pro Collection erstellt werden. Werden als Optimierung von komplexen Abfragen erstellt. Namen für [[MongoDb Indices Allgemein|Indices]] werden automatisch erstellt, können aber auch selber gesetzt werden.
 
 ---
 
