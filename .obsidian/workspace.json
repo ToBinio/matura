@@ -4,91 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "7cdf999df108f66f",
+        "id": "76057eb5aeadba2c",
         "type": "tabs",
         "children": [
           {
-            "id": "ca9fa947eef9f2c4",
+            "id": "0029b30d2854ffed",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NSCS/Networks/WAN/Traditional WAN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Traditional WAN"
-            }
-          },
-          {
-            "id": "192982628493d3c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NSCS/Networks/WAN/Topologies/WAN Dual Homed.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WAN Dual Homed"
-            }
-          },
-          {
-            "id": "3989a97311aba0d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NSCS/Networks/WAN/Topologies/WAN Hub And Spoke.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WAN Hub And Spoke"
-            }
-          },
-          {
-            "id": "e95c0c3e25cc8c03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NSCS/Networks/WAN/WAN Allgemein.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WAN Allgemein"
-            }
-          },
-          {
-            "id": "14714909ef5d512f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "NSCS/Networks/WAN/imgs/partialy meshed.png"
-              },
-              "icon": "lucide-image",
-              "title": "partialy meshed"
-            }
-          },
-          {
-            "id": "b34029b6e8c93223",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "NSCS/Networks/WAN/imgs/fully meshed 1.png"
-              },
-              "icon": "lucide-image",
-              "title": "fully meshed 1"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NSCS/Networks/WAN/WAN Allgemein.md",
+                "file": "NSCS/Networks/WAN/WAN.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for WAN Allgemein"
+              "title": "Backlinks for WAN"
             }
           },
           {
@@ -189,12 +118,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NSCS/Networks/WAN/WAN Allgemein.md",
+                "file": "DSL.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from WAN Allgemein"
+              "title": "Outgoing links from DSL"
             }
           },
           {
@@ -222,12 +151,12 @@
               "title": "Tags"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 329.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,10 +169,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e95c0c3e25cc8c03",
+  "active": "0029b30d2854ffed",
   "lastOpenFiles": [
-    "NSCS/Networks/WAN/Modern WAN.md",
-    "NSCS/Networks/WAN/Serielle Kommunikation.md",
+    "DBI/Speicher Und Buffer/Datengröße.md",
+    "DBI/Speicher Und Buffer/Zugriffszeit.md",
+    "DBI/Speicher Und Buffer/Sekundärer Speicher.md",
+    "DBI/Speicher Und Buffer/Tertiärer Speicher.md",
+    "DBI/Speicher Und Buffer/Speicher Allgemein.md",
+    "DBI/Speicher Und Buffer/Primäre Speichermedien.md",
+    "DBI/Speicher Und Buffer/Maintenance Effort.md",
+    "DBI/Speicher Und Buffer/Kosten.md",
+    "DBI/Speicher Und Buffer/HDD Aufbau.md",
+    "DBI/Speicher Und Buffer/DBMS Architektur.md",
+    "DBI/Speicher Und Buffer/resources/Changing page.png",
+    "DBI/Speicher Und Buffer/resources/Refactor Record.png",
+    "DBI/Speicher Und Buffer/resources/Pages.png",
+    "DBI/Speicher Und Buffer/resources/storage-pyramid.png",
+    "DBI/Speicher Und Buffer/resources/hdd-structur.png",
+    "DBI/Speicher Und Buffer/resources/DBMS.png",
+    "DBI/Speicher Und Buffer/resources/aspects-of-storage.png",
+    "hdd-structur.png",
+    "DBMS.png",
+    "storage-pyramid.png",
     "NSCS/Networks/WAN/WAN switching.md",
     "NSCS/Networks/WAN/WAN Carrier.md",
     "NSCS/Networks/WAN/WAN Allgemein.md",
@@ -252,41 +199,24 @@
     "NSCS/Networks/WAN/Topologies/WAN Mesh.md",
     "NSCS/Networks/WAN/Topologies/WAN Hub And Spoke.md",
     "NSCS/Networks/WAN/Topologies/WAN Dual Homed.md",
-    "NSCS/Networks/WAN/imgs/DSL and ppp.png",
-    "NSCS/Networks/WAN/imgs/DSL connections.png",
-    "NSCS/Networks/WAN/imgs/dual multi homed.png",
-    "NSCS/Networks/WAN/imgs/Dual homed 2.png",
-    "NSCS/Networks/WAN/imgs/dual homed 1.png",
-    "NSCS/Networks/WAN/imgs/Dual homed.png",
-    "NSCS/Networks/WAN/imgs/Point to Point.png",
-    "NSCS/Networks/WAN/imgs/single Carrier.png",
-    "NSCS/Networks/WAN/imgs/Single homed.png",
-    "NSCS/Networks/WAN/imgs/point to point 1.png",
-    "NSCS/Networks/Firewall.md",
-    "NSCS/Networks/WAN/WAN.md",
-    "NSCS/Networks/Comparisons.md",
-    "NSCS/Networks/Cable/Fiber Optic.md",
     "NSCS/Networks/WAN/Topologies",
-    "NSCS-Jonas/WAN/Vorlage.md",
-    "NSCS/Test - 1.md",
-    "Untitled.canvas",
-    "NSCS/VPN/VPN Allgemein.md",
-    "NSCS/VPN/Site To Site VPN.md",
-    "NSCS/VPN/Service Provider VPN.md",
-    "NSCS/VPN/SSL VPN.md",
-    "NSCS/VPN/Remote Access VPN.md",
-    "NSCS/VPN/IPSec/IPSec Virtual Tunnel Interface.md",
-    "NSCS/VPN/IPSec/IPSec Vertraulichkeit.md",
-    "NSCS/VPN/IPSec/IPSec Protocol.md",
-    "NSCS/VPN/IPSec/IPSec Integrität.md",
-    "NSCS/VPN/IPSec",
+    "NSCS/Networks/WAN/Serielle Kommunikation.md",
+    "DBI/Speicher Und Buffer/resources",
+    "NSCS/DNS/DNS Allgemein.md",
+    "DBI/Speicher Und Buffer",
+    "DBI/MongoDb/MongoDb Indices/Indices Erstellung.md",
+    "DBI/MongoDb/MongoDb Indices/Time To Live Indices.md",
+    "DBI/MongoDb/MongoDb Indices/Hash Indices.md",
+    "DBI/MongoDb/MongoDb Indices/Sekundäre Indices.md",
+    "DBI/MongoDb/MongoDb Indices/Primäre Indices.md",
     "NSCS-Jonas/WAN",
-    "NSCS-Jonas/IPSec",
-    "NSCS-Jonas/PKI",
-    "NSCS/PKI/imgs",
-    "NSCS/PKI/Authorities",
-    "DBI/Database Design",
-    "DBI",
-    "NSCS-Jonas/VPN"
+    "NSCS-Jonas",
+    "DBI/MongoDb/MongoDb Indices/resources",
+    "DBI/MongoDb/MongoDb Indices",
+    "DBI/MongoDb",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "NSCS/VPN/IPSec",
+    "NSCS-Jonas/IPSec"
   ]
 }
