@@ -1,4 +1,8 @@
 Der Aufwand, um einen Speicher sicher am Laufen zu halten. 
+Cloud
+	genötigt wenig Verwaltungsaufwand
+On-Premise Speicherlösungen
+	Backups, Updates, Skalierung benötigen viel Aufwand
 
 ---
 
