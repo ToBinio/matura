@@ -2,7 +2,13 @@
 Um [[Sekundäre Indices|sekundäre Indices]] zu erstellen gibt es folgenden Befehl:
 ```db.collection.createIndex(key_data, options)```
 
-key_data sind die Felder, auf denen der [[MongoDb Indices Allgemein|Index]] angewandt wird, mit jeweils 1 für auf- und -1 für absteigend. In den Optionen kann dann z.B. der Name gesetzt werden, oder ob die Felder unique sein sollen.
+key_data sind die Felder, auf denen der [[MongoDb Indices Allgemein|Index]] angewandt wird, mit jeweils 1 für auf- und -1 für absteigend. In den Optionen kann
+- unique
+- name
+- partialFilterExpression
+- sparse
+- expireAfterSeconds
+gesetzt werden.
 
 **Löschen von Indices**
 Hierfür gibt es die Befehle:

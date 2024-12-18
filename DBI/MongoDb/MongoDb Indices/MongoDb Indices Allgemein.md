@@ -23,7 +23,7 @@ Teilweise müssen Abfragen eine ganze Collection abzufragen. Mit Indices wird ve
 
 Für das [[Indices Erstellung|Erstellen von Indices]] stellt MongoDb Funktionen zur verfügung.
 
-Die Storage Engine sucht sich selber aus, welchen Index sie verwendet.
+Die Storage Engine sucht sich selber aus, welchen Index sie verwendet. Mittels Hint kann angegeben werden, welcher verwendet werden soll.
 
 ---
 
