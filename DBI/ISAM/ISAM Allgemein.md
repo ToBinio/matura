@@ -36,6 +36,9 @@ Ist eine Data-Page voll, so kann ein Eintrag in eine andere Data-Page ausgelager
 
 ![[ISAM adding 2.png]]
 
+**ISAM löschen**
+Sind weniger als Kapazität/2 Einträge in einer Data-Page, so muss ein Eintrag einer Nachbar Data-Page ausgeborgt werden. Falls das nicht möglich ist, dann müssen Data-Pages verbunden werden.
+
 **ISAM Operationen**
 - Suche
 	- Schnell durch Index Struktur
