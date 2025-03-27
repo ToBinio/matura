@@ -1,3 +1,5 @@
+### Lightweight Directory Access Protocol 
+
 Aktuelle Version ist 3. Unterschiede zu Version 2:
 - Authentifizierung mittels SASL (Simple Authentication and Security Layer)
 - Verschlüsselung von Daten mittels TLS
@@ -7,7 +9,7 @@ Aktuelle Version ist 3. Unterschiede zu Version 2:
 LDAPv3 ist nicht mit LDAPv2 kompatibel.
 
 Anwendungsbereiche von LDAP:
-- Grundlage von Microsoft Active Directories
+- Grundlage von [[Active Directory|Microsoft Active Directories]]
 - Ressourcenverwaltung
 - Single Sign On
 - Verwaltung von Benutzern, Gruppen und Rechnern

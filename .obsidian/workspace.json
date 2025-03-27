@@ -4,76 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6f06cdf047baf102",
+        "id": "c56cad363d7ff14e",
         "type": "tabs",
         "children": [
           {
-            "id": "f2de39965c222efe",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "NSCS/PKI/Directory Service.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of Directory Service"
-            }
-          },
-          {
-            "id": "20a2a4340ebbdd76",
+            "id": "01937e614ff6482d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NSCS/Networks/WAN/Modern WAN.md",
+                "file": "NSCS/Firewall/Firewall Allgemein.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modern WAN"
-            }
-          },
-          {
-            "id": "1f2341a0bffc5041",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NSCS/PKI/Directory Service.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Directory Service"
+              "title": "Firewall Allgemein"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NSCS/PKI/Directory Service.md",
+                "file": "NSCS/Firewall/Firewall Allgemein.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Directory Service"
+              "title": "Backlinks for Firewall Allgemein"
             }
           },
           {
@@ -165,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NSCS/PKI/Directory Service.md",
+                "file": "NSCS/Firewall/Firewall Allgemein.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Directory Service"
+              "title": "Outgoing links from Firewall Allgemein"
             }
           },
           {
@@ -179,13 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NSCS/PKI/Directory Service.md",
+                "file": "NSCS/Firewall/Firewall Allgemein.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Directory Service"
+              "title": "Outline of Firewall Allgemein"
             }
           },
           {
@@ -218,16 +166,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1f2341a0bffc5041",
+  "active": "01937e614ff6482d",
   "lastOpenFiles": [
+    "NSCS/Mail/IMAP4 (Internet Message Access Protocol).md",
+    "NSCS/Mail/POP3 (Post Office Protocol).md",
+    "NSCS/Mail/Mail Allgemein.md",
+    "NSCS/Mail/SMTP (Simple Mail Transfer Protocol).md",
+    "NSCS/Mail/PGP (Pretty Good Privacy).md",
+    "NSCS/Mail/MX Eintrag.md",
+    "NSCS/Verzeichnisdienste/LDAP.md",
+    "NSCS/Verzeichnisdienste/X.500.md",
+    "NSCS/Verzeichnisdienste/Verzeichnisdienste Allgemein.md",
+    "NSCS/Networks/WAN/Modern WAN.md",
+    "NSCS/PKI/Directory Service.md",
     "NSCS/general/Active Directory.md",
     "NSCS/Networks/WAN/WAN switching.md",
     "NSCS/general/Multiprotocol Label Switching.md",
     "NSCS/VPN/Service Provider VPN.md",
-    "NSCS/Networks/WAN/Modern WAN.md",
     "NSCS/general/TTL.md",
     "NSCS/general/SSL.md",
-    "NSCS/PKI/Directory Service.md",
     "NSCS/general/X.500.md",
     "NSCS/general/Windows Server.md",
     "NSCS/general/Unicast.md",
@@ -237,15 +194,6 @@
     "NSCS/general/Hashed Message Authentication Code.md",
     "NSCS/general/DDos.md",
     "NSCS/general/LDAP.md",
-    "NSCS/Verzeichnisdienste/LDAP.md",
-    "NSCS/general/DNS Walking.md",
-    "NSCS/general/DNS Amplification Attack.md",
-    "NSCS/Firewall/Firewall Allgemein.md",
-    "NSCS/Mail/SMTP (Simple Mail Transfer Protocol).md",
-    "NSCS/Mail/POP3 (Post Office Protocol).md",
-    "NSCS/Mail/PGP (Pretty Good Privacy).md",
-    "NSCS/Mail/MX Eintrag.md",
-    "NSCS/Mail/Mail Allgemein.md",
     "NSCS/Verzeichnisdienste/img/ldap_structure.png.png",
     "NSCS/Verzeichnisdienste/img/concatinated_dn.png",
     "NSCS/Verzeichnisdienste/img/attribute_type.png",

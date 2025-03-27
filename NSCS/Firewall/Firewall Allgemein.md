@@ -15,7 +15,7 @@ Diese befindet sich direkt auf dem Gerät das geschützt werden soll. So haben a
 Diese befinden sich nicht auf dem Gerät, sondern separater Hardware, welche sich zwischen 2 Netzwerksegmenten befindet. Diese ist von den Endgeräten unabhängig.
 ### Paketfilter
 ![[paketfilter.png]]
-Stellt einen modifizierten Router dar, welcher Paketheader überprüft und entscheidet, ob er es weiterleitet oder nicht.
+Stellt einen modifizierten Router dar, welcher Paketheader überprüft und entscheidet, ob er es weiterleitet oder nicht. Arbeiten auf Layer 3 und 4 der [[OSI Model]]
 
 Diese können folgende Informationen überprüfen:
 - Protokoll (ICMP, UDP, TCP)
@@ -59,7 +59,7 @@ Da ein normaler Proxy Einstellungen am Client benötigt, ist dieser im Netzwerk 
 ![[reverse_proxy.png]]
 Läuft auf der Server-Seite und kann zum cachen verwendet werden. Ebenfalls versteckt der reverse Proxy die Identität der Services hinter ihm.
 ### Applikationsfilter (Application Level Filter) (Application Gateway)
-Diese arbeiten auf Layer 7 (Application) als anwendungsbezogener Filter. Für jeden Dienst (FTP, HTTP, usw) meist einen eigenen. 
+Diese arbeiten auf Layer 7 (Application) [[OSI Model]] als anwendungsbezogener Filter. Für jeden Dienst (FTP, HTTP, usw) meist einen eigenen. 
 #### Vorteile
 - differenzierte Authentifikation und Überprüfung
 - Nutzung von Diensten lässt sich einschränken

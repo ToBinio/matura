@@ -35,6 +35,8 @@ Prüfung der behaupteten Authentisierung
 Prüfung der Rechte
 
 ### Security Maßnahmen
+#### [[SMTP (Simple Mail Transfer Protocol)#ESMTP|ESMTP]]
+
 #### [[PGP (Pretty Good Privacy)]]
 #### DKIM (DomainKeys Identified Mail)
 Mail werden vom Mail-Server signiert. Der [[Public Key|öffentliche Schlüssel]] wird im DNS Eintrag des Mail-Servers hinterlegt.
