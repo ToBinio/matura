@@ -11,10 +11,14 @@
             "id": "0029b30d2854ffed",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "NSCS/Firewall/Firewall Allgemein.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Firewall Allgemein"
             }
           }
         ]
@@ -36,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -171,6 +176,18 @@
   },
   "active": "0029b30d2854ffed",
   "lastOpenFiles": [
+    "NSCS/Mail/SMTP (Simple Mail Transfer Protocol).md",
+    "NSCS/Mail/POP3 (Post Office Protocol).md",
+    "NSCS/Mail/PGP (Pretty Good Privacy).md",
+    "NSCS/Mail/MX Eintrag.md",
+    "NSCS/Mail/Mail Allgemein.md",
+    "NSCS/Mail/IMAP4 (Internet Message Access Protocol).md",
+    "NSCS/Verzeichnisdienste/X.500.md",
+    "NSCS/Verzeichnisdienste/Verzeichnisdienste Allgemein.md",
+    "NSCS/Verzeichnisdienste/LDAP.md",
+    "NSCS/Verzeichnisdienste/img/ldap_structure.png.png",
+    "NSCS/Verzeichnisdienste/img/concatinated_dn.png",
+    "NSCS/Verzeichnisdienste/img/attribute_type.png",
     "DBI/Speicher Und Buffer/Datengröße.md",
     "DBI/Speicher Und Buffer/Zugriffszeit.md",
     "DBI/Speicher Und Buffer/Sekundärer Speicher.md",
@@ -188,9 +205,6 @@
     "DBI/Speicher Und Buffer/resources/hdd-structur.png",
     "DBI/Speicher Und Buffer/resources/DBMS.png",
     "DBI/Speicher Und Buffer/resources/aspects-of-storage.png",
-    "hdd-structur.png",
-    "DBMS.png",
-    "storage-pyramid.png",
     "NSCS/Networks/WAN/WAN switching.md",
     "NSCS/Networks/WAN/WAN Carrier.md",
     "NSCS/Networks/WAN/WAN Allgemein.md",
@@ -198,17 +212,9 @@
     "NSCS/Networks/WAN/Topologies/WAN Point To Point.md",
     "NSCS/Networks/WAN/Topologies/WAN Mesh.md",
     "NSCS/Networks/WAN/Topologies/WAN Hub And Spoke.md",
-    "NSCS/Networks/WAN/Topologies/WAN Dual Homed.md",
     "NSCS/Networks/WAN/Topologies",
-    "NSCS/Networks/WAN/Serielle Kommunikation.md",
     "DBI/Speicher Und Buffer/resources",
-    "NSCS/DNS/DNS Allgemein.md",
     "DBI/Speicher Und Buffer",
-    "DBI/MongoDb/MongoDb Indices/Indices Erstellung.md",
-    "DBI/MongoDb/MongoDb Indices/Time To Live Indices.md",
-    "DBI/MongoDb/MongoDb Indices/Hash Indices.md",
-    "DBI/MongoDb/MongoDb Indices/Sekundäre Indices.md",
-    "DBI/MongoDb/MongoDb Indices/Primäre Indices.md",
     "NSCS-Jonas/WAN",
     "NSCS-Jonas",
     "DBI/MongoDb/MongoDb Indices/resources",
