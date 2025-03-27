@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBI/Database Design/Database Systems History.md",
+                "file": "NSCS/Mail/SMTP (Simple Mail Transfer Protocol).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database Systems History"
+              "title": "SMTP (Simple Mail Transfer Protocol)"
             }
           }
         ]
@@ -174,8 +174,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "99b02046fbd575fd",
+  "active": "0f5d2a942dca4300",
   "lastOpenFiles": [
+    "NSCS/Mail/PGP (Pretty Good Privacy).md",
+    "NSCS/Mail/Mail Allgemein.md",
+    "NSCS/Mail/SMTP (Simple Mail Transfer Protocol).md",
+    "NSCS/Mail/POP3 (Post Office Protocol).md",
+    "NSCS/Mail/IMAP4 (Internet Message Access Protocol).md",
+    "NSCS/Mail/MX Eintrag.md",
+    "NSCS/DNS/DNS Eintrag.md",
+    "NSCS/DNS/DNS Server.md",
+    "NSCS/Mail/img/mail_path.png",
+    "NSCS/Mail/img",
+    "DBI/Database Design/Database Systems History.md",
+    "NSCS/Mail",
+    "NSCS/Mail",
+    "DBI/Raid/Vorlage.md",
     "NSCS/Verzeichnisdienste/Verzeichnisdienste Allgemein.md",
     "NSCS/Verzeichnisdienste/X.500.md",
     "NSCS/Verzeichnisdienste/LDAP.md",
@@ -188,7 +202,6 @@
     "NSCS/Verzeichnisdienste/img/dn_rdn.png",
     "NSCS/Verzeichnisdienste/img/optional_attributes.png",
     "NSCS/Verzeichnisdienste/img/attribute_type.png",
-    "NSCS/Verzeichnisdienste/img/object_attributes.png",
     "NSCS/Verzeichnisdienste/img",
     "NSCS/PKI/Digitale Signatur.md",
     "NSCS/PKI/Public Key.md",
@@ -203,24 +216,12 @@
     "DBI/Raid/Raid 1+0.md",
     "DBI/Raid/Raid 0.md",
     "DBI/Raid/Raid 1.md",
-    "DBI/Raid/Raid Allgemein.md",
-    "NSCS/DNS/DNS Allgemein.md",
     "NSCS/Verzeichnisdienste",
-    "DBI/ISAM/ISAM Allgemein.md",
-    "DBI/B-Baum/B-Baum Allgemein.md",
-    "DBI/Raid/Raid 5.md",
-    "DBI/Raid/Parity.md",
-    "DBI/Raid/Raid 0+1.md",
-    "DBI/Speicher Und Buffer/Speicher Allgemein.md",
-    "DBI/Speicher Und Buffer/DBMS Architektur.md",
     "DBI/B-Baum/resources",
     "DBI/B-Baum",
     "DBI/ISAM/resources",
     "DBI/ISAM",
     "DBI/Raid/sources",
-    "DBI/Raid",
-    "NSCS/Networks/WAN/Topologies",
-    "DBI/Speicher Und Buffer/resources",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
