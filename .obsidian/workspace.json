@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a680022767965643",
+        "id": "76057eb5aeadba2c",
         "type": "tabs",
         "children": [
           {
-            "id": "0f5d2a942dca4300",
+            "id": "0029b30d2854ffed",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NSCS/Firewall/Firewall Allgemein.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Firewall Allgemein"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -40,8 +36,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Stellt",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,54 +169,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0f5d2a942dca4300",
+  "active": "0029b30d2854ffed",
   "lastOpenFiles": [
-    "NSCS/Firewall/img/combination_paketfilter_proxy.png",
-    "NSCS/Firewall/Firewall Allgemein.md",
-    "NSCS/Firewall/img/reverse_proxy.png",
-    "NSCS/Firewall/img/proxy.png",
-    "Pasted image 20250327163535.png",
-    "NSCS/Firewall/img/paketfilter.png",
-    "NSCS/Firewall/img",
-    "NSCS/Mail/SMTP (Simple Mail Transfer Protocol).md",
-    "NSCS/Firewall",
-    "NSCS/Untitled.md",
-    "NSCS/Mail/PGP (Pretty Good Privacy).md",
-    "NSCS/Mail/Mail Allgemein.md",
-    "NSCS/Mail/POP3 (Post Office Protocol).md",
-    "NSCS/Mail/IMAP4 (Internet Message Access Protocol).md",
-    "NSCS/Mail/MX Eintrag.md",
-    "NSCS/DNS/DNS Eintrag.md",
-    "NSCS/DNS/DNS Server.md",
-    "NSCS/Mail/img/mail_path.png",
-    "NSCS/Mail/img",
-    "DBI/Database Design/Database Systems History.md",
-    "NSCS/Mail",
-    "NSCS/Mail",
-    "DBI/Raid/Vorlage.md",
-    "NSCS/Verzeichnisdienste/Verzeichnisdienste Allgemein.md",
-    "NSCS/Verzeichnisdienste/X.500.md",
-    "NSCS/Verzeichnisdienste/LDAP.md",
-    "NSCS/Verzeichnisdienste/img/ldif_delete.png",
-    "Pasted image 20250327091951.png",
-    "NSCS/Verzeichnisdienste/img/ldif_add.png",
-    "NSCS/Verzeichnisdienste/img/ldif_create.png",
-    "NSCS/Verzeichnisdienste/img",
-    "NSCS/PKI/Digitale Signatur.md",
-    "NSCS/PKI/Public Key.md",
-    "NSCS/Networks/Load Balancing.md",
-    "NSCS/general/X.500.md",
-    "NSCS/general/TTL.md",
-    "NSCS/general/RSA.md",
-    "NSCS/general/Hashed Message Authentication Code.md",
-    "NSCS/general/DNS Amplification Attack.md",
-    "NSCS/general/DDos.md",
-    "NSCS/OSI Model.md",
-    "NSCS/Verzeichnisdienste",
-    "DBI/B-Baum/resources",
-    "DBI/B-Baum",
-    "DBI/ISAM/resources",
+    "DBI/Speicher Und Buffer/Datengröße.md",
+    "DBI/Speicher Und Buffer/Zugriffszeit.md",
+    "DBI/Speicher Und Buffer/Sekundärer Speicher.md",
+    "DBI/Speicher Und Buffer/Tertiärer Speicher.md",
+    "DBI/Speicher Und Buffer/Speicher Allgemein.md",
+    "DBI/Speicher Und Buffer/Primäre Speichermedien.md",
+    "DBI/Speicher Und Buffer/Maintenance Effort.md",
+    "DBI/Speicher Und Buffer/Kosten.md",
+    "DBI/Speicher Und Buffer/HDD Aufbau.md",
+    "DBI/Speicher Und Buffer/DBMS Architektur.md",
+    "DBI/Speicher Und Buffer/resources/Changing page.png",
+    "DBI/Speicher Und Buffer/resources/Refactor Record.png",
+    "DBI/Speicher Und Buffer/resources/Pages.png",
+    "DBI/Speicher Und Buffer/resources/storage-pyramid.png",
+    "DBI/Speicher Und Buffer/resources/hdd-structur.png",
+    "DBI/Speicher Und Buffer/resources/DBMS.png",
+    "DBI/Speicher Und Buffer/resources/aspects-of-storage.png",
+    "hdd-structur.png",
+    "DBMS.png",
+    "storage-pyramid.png",
+    "NSCS/Networks/WAN/WAN switching.md",
+    "NSCS/Networks/WAN/WAN Carrier.md",
+    "NSCS/Networks/WAN/WAN Allgemein.md",
+    "NSCS/Networks/WAN/Traditional WAN.md",
+    "NSCS/Networks/WAN/Topologies/WAN Point To Point.md",
+    "NSCS/Networks/WAN/Topologies/WAN Mesh.md",
+    "NSCS/Networks/WAN/Topologies/WAN Hub And Spoke.md",
+    "NSCS/Networks/WAN/Topologies/WAN Dual Homed.md",
+    "NSCS/Networks/WAN/Topologies",
+    "NSCS/Networks/WAN/Serielle Kommunikation.md",
+    "DBI/Speicher Und Buffer/resources",
+    "NSCS/DNS/DNS Allgemein.md",
+    "DBI/Speicher Und Buffer",
+    "DBI/MongoDb/MongoDb Indices/Indices Erstellung.md",
+    "DBI/MongoDb/MongoDb Indices/Time To Live Indices.md",
+    "DBI/MongoDb/MongoDb Indices/Hash Indices.md",
+    "DBI/MongoDb/MongoDb Indices/Sekundäre Indices.md",
+    "DBI/MongoDb/MongoDb Indices/Primäre Indices.md",
+    "NSCS-Jonas/WAN",
+    "NSCS-Jonas",
+    "DBI/MongoDb/MongoDb Indices/resources",
+    "DBI/MongoDb/MongoDb Indices",
+    "DBI/MongoDb",
     "Untitled.canvas",
-    "Untitled 1.canvas"
+    "Untitled 1.canvas",
+    "NSCS/VPN/IPSec",
+    "NSCS-Jonas/IPSec"
   ]
 }
