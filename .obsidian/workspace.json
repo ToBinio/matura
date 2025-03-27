@@ -4,91 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7cdf999df108f66f",
+        "id": "a680022767965643",
         "type": "tabs",
         "children": [
           {
-            "id": "ca9fa947eef9f2c4",
+            "id": "0f5d2a942dca4300",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NSCS/Networks/WAN/Traditional WAN.md",
+                "file": "DBI/Database Design/Database Systems History.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Traditional WAN"
-            }
-          },
-          {
-            "id": "192982628493d3c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NSCS/Networks/WAN/Topologies/WAN Dual Homed.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WAN Dual Homed"
-            }
-          },
-          {
-            "id": "3989a97311aba0d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NSCS/Networks/WAN/Topologies/WAN Hub And Spoke.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WAN Hub And Spoke"
-            }
-          },
-          {
-            "id": "e95c0c3e25cc8c03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NSCS/Networks/WAN/WAN Allgemein.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WAN Allgemein"
-            }
-          },
-          {
-            "id": "14714909ef5d512f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "NSCS/Networks/WAN/imgs/partialy meshed.png"
-              },
-              "icon": "lucide-image",
-              "title": "partialy meshed"
-            }
-          },
-          {
-            "id": "b34029b6e8c93223",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "NSCS/Networks/WAN/imgs/fully meshed 1.png"
-              },
-              "icon": "lucide-image",
-              "title": "fully meshed 1"
+              "title": "Database Systems History"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -170,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NSCS/Networks/WAN/WAN Allgemein.md",
+                "file": "NSCS/Networks/WAN/WAN.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for WAN Allgemein"
+              "title": "Backlinks for WAN"
             }
           },
           {
@@ -189,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NSCS/Networks/WAN/WAN Allgemein.md",
+                "file": "DSL.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from WAN Allgemein"
+              "title": "Outgoing links from DSL"
             }
           },
           {
@@ -222,12 +156,12 @@
               "title": "Tags"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 329.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,53 +174,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e95c0c3e25cc8c03",
+  "active": "99b02046fbd575fd",
   "lastOpenFiles": [
-    "NSCS/Networks/WAN/Modern WAN.md",
-    "NSCS/Networks/WAN/Serielle Kommunikation.md",
-    "NSCS/Networks/WAN/WAN switching.md",
-    "NSCS/Networks/WAN/WAN Carrier.md",
-    "NSCS/Networks/WAN/WAN Allgemein.md",
-    "NSCS/Networks/WAN/Traditional WAN.md",
-    "NSCS/Networks/WAN/Topologies/WAN Point To Point.md",
-    "NSCS/Networks/WAN/Topologies/WAN Mesh.md",
-    "NSCS/Networks/WAN/Topologies/WAN Hub And Spoke.md",
-    "NSCS/Networks/WAN/Topologies/WAN Dual Homed.md",
-    "NSCS/Networks/WAN/imgs/DSL and ppp.png",
-    "NSCS/Networks/WAN/imgs/DSL connections.png",
-    "NSCS/Networks/WAN/imgs/dual multi homed.png",
-    "NSCS/Networks/WAN/imgs/Dual homed 2.png",
-    "NSCS/Networks/WAN/imgs/dual homed 1.png",
-    "NSCS/Networks/WAN/imgs/Dual homed.png",
-    "NSCS/Networks/WAN/imgs/Point to Point.png",
-    "NSCS/Networks/WAN/imgs/single Carrier.png",
-    "NSCS/Networks/WAN/imgs/Single homed.png",
-    "NSCS/Networks/WAN/imgs/point to point 1.png",
-    "NSCS/Networks/Firewall.md",
-    "NSCS/Networks/WAN/WAN.md",
-    "NSCS/Networks/Comparisons.md",
-    "NSCS/Networks/Cable/Fiber Optic.md",
+    "NSCS/Verzeichnisdienste/Verzeichnisdienste Allgemein.md",
+    "NSCS/Verzeichnisdienste/X.500.md",
+    "NSCS/Verzeichnisdienste/LDAP.md",
+    "NSCS/Verzeichnisdienste/img/ldif_delete.png",
+    "Pasted image 20250327091951.png",
+    "NSCS/Verzeichnisdienste/img/ldif_add.png",
+    "NSCS/Verzeichnisdienste/img/ldif_create.png",
+    "NSCS/Verzeichnisdienste/img/ldif_change.png",
+    "NSCS/Verzeichnisdienste/img/concatinated_dn.png",
+    "NSCS/Verzeichnisdienste/img/dn_rdn.png",
+    "NSCS/Verzeichnisdienste/img/optional_attributes.png",
+    "NSCS/Verzeichnisdienste/img/attribute_type.png",
+    "NSCS/Verzeichnisdienste/img/object_attributes.png",
+    "NSCS/Verzeichnisdienste/img",
+    "NSCS/PKI/Digitale Signatur.md",
+    "NSCS/PKI/Public Key.md",
+    "NSCS/Networks/Load Balancing.md",
+    "NSCS/general/X.500.md",
+    "NSCS/general/TTL.md",
+    "NSCS/general/RSA.md",
+    "NSCS/general/Hashed Message Authentication Code.md",
+    "NSCS/general/DNS Amplification Attack.md",
+    "NSCS/general/DDos.md",
+    "NSCS/OSI Model.md",
+    "DBI/Raid/Raid 1+0.md",
+    "DBI/Raid/Raid 0.md",
+    "DBI/Raid/Raid 1.md",
+    "DBI/Raid/Raid Allgemein.md",
+    "NSCS/DNS/DNS Allgemein.md",
+    "NSCS/Verzeichnisdienste",
+    "DBI/ISAM/ISAM Allgemein.md",
+    "DBI/B-Baum/B-Baum Allgemein.md",
+    "DBI/Raid/Raid 5.md",
+    "DBI/Raid/Parity.md",
+    "DBI/Raid/Raid 0+1.md",
+    "DBI/Speicher Und Buffer/Speicher Allgemein.md",
+    "DBI/Speicher Und Buffer/DBMS Architektur.md",
+    "DBI/B-Baum/resources",
+    "DBI/B-Baum",
+    "DBI/ISAM/resources",
+    "DBI/ISAM",
+    "DBI/Raid/sources",
+    "DBI/Raid",
     "NSCS/Networks/WAN/Topologies",
-    "NSCS-Jonas/WAN/Vorlage.md",
-    "NSCS/Test - 1.md",
+    "DBI/Speicher Und Buffer/resources",
     "Untitled.canvas",
-    "NSCS/VPN/VPN Allgemein.md",
-    "NSCS/VPN/Site To Site VPN.md",
-    "NSCS/VPN/Service Provider VPN.md",
-    "NSCS/VPN/SSL VPN.md",
-    "NSCS/VPN/Remote Access VPN.md",
-    "NSCS/VPN/IPSec/IPSec Virtual Tunnel Interface.md",
-    "NSCS/VPN/IPSec/IPSec Vertraulichkeit.md",
-    "NSCS/VPN/IPSec/IPSec Protocol.md",
-    "NSCS/VPN/IPSec/IPSec Integrität.md",
-    "NSCS/VPN/IPSec",
-    "NSCS-Jonas/WAN",
-    "NSCS-Jonas/IPSec",
-    "NSCS-Jonas/PKI",
-    "NSCS/PKI/imgs",
-    "NSCS/PKI/Authorities",
-    "DBI/Database Design",
-    "DBI",
-    "NSCS-Jonas/VPN"
+    "Untitled 1.canvas"
   ]
 }
