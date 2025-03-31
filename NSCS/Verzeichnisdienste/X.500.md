@@ -1,0 +1,1 @@
+Beschreibt den Aufbau von [[Verzeichnisdienste Allgemein|Verzeichnisdiensten]]. Es gibt jedoch keine vollständige Implementierung. 

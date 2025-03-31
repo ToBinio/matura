@@ -1,4 +1,4 @@
-Verwaltet vom [[Enterprise VPN|Enterprise]] und verwendet [[Multiprotocol Label Switching|Multiprotocol Label Switching (MPLS)]] um Kunden-Verkehr von anderen Kunden-Verkehr zu trennen.
+Verwaltet vom [[Enterprise VPN|Enterprise]] und verwendet [[WAN switching#MPLS (Multiprotocol Label Switching)|MPLS switched]] um Kunden-Verkehr von anderen Kunden-Verkehr zu trennen.
 
 ![[service provider.png]]
 

@@ -1,0 +1,1 @@
+Der Mail Exchange oder MX-RR (Mail Exchange Resource Record) ist ein Eintrag im [[DNS Allgemein|DNS]]. Dieser gibt die IP-Adresse des Mail-Servers an. Existiert dieser nicht werden die A Einträge ausprobiert.
