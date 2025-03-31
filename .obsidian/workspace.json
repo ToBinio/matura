@@ -11,14 +11,26 @@
             "id": "01937e614ff6482d",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "NSCS/Firewall/img/UDP Holepunching.png"
+              },
+              "icon": "lucide-image",
+              "title": "UDP Holepunching"
+            }
+          },
+          {
+            "id": "97e611130ed8aa77",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "NSCS/Firewall/Firewall Allgemein.md",
+                "file": "NSCS/Firewall/Firewall.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Firewall Allgemein"
+              "title": "Firewall"
             }
           }
         ]
@@ -53,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Multi protocol label",
+                "query": "stateful",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NSCS/Firewall/Firewall Allgemein.md",
+                "file": "NSCS/Firewall/img/UDP Holepunching.png",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Firewall Allgemein"
+              "title": "Backlinks for UDP Holepunching"
             }
           },
           {
@@ -168,6 +180,19 @@
   },
   "active": "01937e614ff6482d",
   "lastOpenFiles": [
+    "NSCS/Networks/imgs/DMZ+Proxy.png",
+    "NSCS/Firewall/UDP Holepunching.md",
+    "NSCS/Firewall/Firewall.md",
+    "NSCS/Firewall/Paketfilter.md",
+    "NSCS/Firewall/img/UDP Holepunching.png",
+    "NSCS/Networks/DMZ.md",
+    "NSCS/Firewall/Proxy.md",
+    "NSCS/Networks/imgs/DMZ.png",
+    "Pasted image 20250331115604.png",
+    "NSCS/Networks/imgs",
+    "NSCS/DNS/DNS Sec.md",
+    "NSCS/Networks/Firewall.md",
+    "NSCS/Firewall/img/Weg im Kernel.png",
     "NSCS/Mail/IMAP4 (Internet Message Access Protocol).md",
     "NSCS/Mail/POP3 (Post Office Protocol).md",
     "NSCS/Mail/Mail Allgemein.md",
@@ -186,24 +211,11 @@
     "NSCS/general/TTL.md",
     "NSCS/general/SSL.md",
     "NSCS/general/X.500.md",
-    "NSCS/general/Windows Server.md",
-    "NSCS/general/Unicast.md",
-    "NSCS/general/Symmetrische Verschlüsselung.md",
-    "NSCS/general/RSA.md",
-    "NSCS/general/Internet Key Exchange.md",
-    "NSCS/general/Hashed Message Authentication Code.md",
-    "NSCS/general/DDos.md",
-    "NSCS/general/LDAP.md",
     "NSCS/Verzeichnisdienste/img/ldap_structure.png.png",
     "NSCS/Verzeichnisdienste/img/concatinated_dn.png",
     "NSCS/Verzeichnisdienste/img/attribute_type.png",
     "DBI/Speicher Und Buffer/resources/Changing page.png",
     "DBI/Speicher Und Buffer/resources/Refactor Record.png",
-    "DBI/Speicher Und Buffer/resources/Pages.png",
-    "DBI/Speicher Und Buffer/resources/storage-pyramid.png",
-    "DBI/Speicher Und Buffer/resources/hdd-structur.png",
-    "DBI/Speicher Und Buffer/resources/DBMS.png",
-    "DBI/Speicher Und Buffer/resources/aspects-of-storage.png",
     "NSCS/Networks/WAN/Topologies",
     "DBI/Speicher Und Buffer/resources",
     "DBI/Speicher Und Buffer",
@@ -214,7 +226,6 @@
     "DBI/MongoDb",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "NSCS/VPN/IPSec",
-    "NSCS-Jonas/IPSec"
+    "NSCS/VPN/IPSec"
   ]
 }
